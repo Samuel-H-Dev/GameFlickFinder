@@ -1,6 +1,7 @@
 [
   {
-        "title": "Elden Ring",
+    "title": "Elden Ring",
+    "genres": ["Action RPG", "Open World"],
     "rating": "M",
     "description": "A fantasy action RPG developed by FromSoftware and published by Bandai Namco Entertainment.",
     "price": 59.99,
@@ -8,6 +9,7 @@
   },
   {
         "title": "Grand Theft Auto V",
+    "genres": ["Action-adventure", "Open World"],
     "rating": "M",
     "description": "An action-adventure game developed by Rockstar North and published by Rockstar Games.",
     "price": 39.99,
@@ -15,6 +17,7 @@
   },
   {
         "title": "The Legend of Zelda: Breath of the Wild",
+    "genres": ["Action-adventure", "Open World"],
     "rating": "E10+",
     "description": "An action-adventure game developed and published by Nintendo.",
     "price": 59.99,
@@ -22,6 +25,7 @@
   },
   {
         "title": "Red Dead Redemption 2",
+    "genres": ["Action-adventure", "Open World"],
     "rating": "M",
     "description": "An action-adventure game developed by Rockstar Studios and published by Rockstar Games.",
     "price": 39.99,
@@ -29,6 +33,7 @@
   },
   {
         "title": "Super Mario Odyssey",
+    "genres": ["Platformer"],
     "rating": "E",
     "description": "A platform game developed and published by Nintendo.",
     "price": 49.99,
@@ -36,6 +41,7 @@
   },
   {
         "title": "God of War",
+    "genres": ["Action-adventure", "Hack and slash"],
     "rating": "M",
     "description": "An action-adventure game developed by Santa Monica Studio and published by Sony Interactive Entertainment.",
     "price": 49.99,
@@ -43,6 +49,7 @@
   },
   {
         "title": "Horizon Forbidden West",
+    "genres": ["Action-adventure", "Open World"],
     "rating": "T",
     "description": "An action role-playing game developed by Guerrilla Games and published by Sony Interactive Entertainment.",
     "price": 59.99,
@@ -50,6 +57,7 @@
   },
   {
         "title": "Ratchet & Clank: Rift Apart",
+    "genres": ["Platformer", "Third-person shooter"],
     "rating": "E10+",
     "description": "A 3D platform game developed by Insomniac Games and published by Sony Interactive Entertainment.",
     "price": 49.99,
@@ -57,6 +65,7 @@
   },
   {
         "title": "God of War Ragnarök",
+    "genres": ["Action-adventure", "Hack and slash"],
     "rating": "M",
     "description": "An action-adventure game developed by Santa Monica Studio and published by Sony Interactive Entertainment.",
     "price": 59.99,
@@ -64,6 +73,7 @@
   },
   {
         "title": "Spider-Man: Miles Morales",
+    "genres": ["Action-adventure", "3D platformer"],
     "rating": "T",
     "description": "An action-adventure game developed by Insomniac Games and published by Sony Interactive Entertainment.",
     "price": 49.99,
@@ -71,6 +81,7 @@
   },
   {
         "title": "Ghost of Tsushima",
+    "genres": ["Action-adventure", "Open World"],
     "rating": "M",
     "description": "An action-adventure game developed by Sucker Punch Productions and published by Sony Interactive Entertainment.",
     "price": 59.99,
@@ -78,62 +89,71 @@
   },
   {
         "title": "Cyberpunk 2077",
+    "genres": ["Action-adventure", "Open World"],
     "rating": "M",
     "description": "An action role-playing game developed and published by CD Projekt.",
     "price": 59.99,
     "image": "https://cdna.artstation.com/p/assets/images/images/033/037/886/large/artur-tarnowski-malemain.jpg?1608208334"
   },
   {
-    "title": "Celeste",
+   "title": "Celeste",
+    "genres": ["Platformer", "Metroidvania"],
     "rating": "E10+",
     "description": "A 2D platformer with a focus on precision and difficulty. It has a great story and a soundtrack that will stay with you long after you finish the game.",
     "price": 19.99,
     "image": "https://cdn.mobygames.com/covers/9047370-celeste-nintendo-switch-front-cover.jpg"
   },
   {
-    "title": "Hollow Knight",
+   "title": "Hollow Knight",
+    "genres": ["Metroidvania", "Action-adventure"],
     "rating": "E10+",
     "description": "A 2D metroidvania with a beautiful world to explore and challenging boss fights. It's a must-play for fans of the genre.",
     "price": 14.99,
     "image": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000003208/4643fb058642335c523910f3a7910575f56372f612f7c0c9a497aaae978d3e51"
   },
   {
-    "title": "The Outer Wilds",
+   "title": "The Outer Wilds",
+    "genres": ["Adventure", "Exploration"],
     "rating": 4.8,
     "description": "An open-world exploration game set in a solar system full of mysteries to uncover. It's a game that rewards curiosity and exploration.",
     "price": 29.99,
     "image": "https://uppercutcrit.com/wp-content/uploads/2019/12/cover.jpeg"
   },
   {
-    "title": "Returnal",
+   "title": "Returnal",
+    "genres": ["Action-adventure", "Roguelike"],
     "rating": 4.7,
     "description": "A roguelike action-adventure game with a unique gameplay loop. You play as Selene, a woman who is trapped on a planet that resets every time she dies.",
     "price": 79.99,
     "image": "https://i0.wp.com/onlysky.media/wp-content/uploads/2021/12/Returnal-game-review.png?fit=1200%2C675&ssl=1"
   },
   {
-    "title": "What Remains of Edith Finch",
+   "title": "What Remains of Edith Finch",
+    "genres": ["Adventure", "Walking simulator"],
     "rating": 4.9,
     "description": "A walking simulator with a unique story-telling style. You play as Edith Finch, who is exploring her family's home after they have all died in mysterious ways.",
     "price": 19.99,
     "image": "https://i0.wp.com/bounthavy.com/wp-content/uploads/2020/07/What-Remains-of-Edith-Finch-14.jpg?fit=1600%2C740&ssl=1"
   },
   {
-    "title": "Disco Elysium",
+   "title": "Disco Elysium",
+    "genres": ["Role-playing game", "Adventure"],
     "rating": 4.9,
     "description": "A role-playing game with a focus on dialogue and choices. You play as a disgraced detective who is trying to solve a murder in a city full of corruption.",
     "price": 29.99,
     "image": "https://discoelysium.iam8bit.com/storage/static/share.jpg"
   },
   {
-    "title": "Firewatch",
+   "title": "Firewatch",
+    "genres": ["Adventure", "Walking simulator"],
     "rating": 4.8,
     "description": "A narrative adventure game set in a remote wilderness. You play as Henry, a fire lookout who is trying to find a missing hiker.",
     "price": 19.99,
     "image": "https://variety.com/wp-content/uploads/2018/04/firewatch.png"
   },
   {
-    "title": "Inside",
+   "title": "Inside",
+    "genres": ["Adventure", "Puzzle-platformer"],
     "rating": 4.9,
     "description": "A puzzle-platformer with a dark and disturbing atmosphere. It's a short game, but it's definitely worth playing.",
     "price": 19.99,
@@ -146,63 +166,72 @@
 
 
   {
-    "title": "Limbo",
+   "title": "Limbo",
+    "genres": ["Adventure", "Puzzle-platformer"],
     "rating": "T",
     "description": "A 2D puzzle-platformer with a dark and atmospheric setting. It's a short game, but it's definitely worth playing.",
     "price": "9.99",
     "image": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000005802/19a3297c0c77743d3e2fc30b137d6c652608bc6b2c1cccf1aef48836e96a685e"
   },
   {
-    "title": "Little Nightmares",
+   "title": "Little Nightmares",
+    "genres": ["Platformer", "Horror"],
     "rating": "T",
     "description": "A 2.5D puzzle-platformer with a creepy and disturbing atmosphere. It's a short game, but it's definitely worth playing.",
     "price": "19.99",
     "image": "https://www.hollywoodreporter.com/wp-content/uploads/2017/05/little_nightmares_game_cover_-_publicity_-_h_2017.jpg"
   },
   {
-    "title": "Undertale",
+   "title": "Undertale",
+    "genres": ["Role-playing game", "Adventure"],
     "rating": "E10+",
     "description": "An indie role-playing game with a unique battle system and a heartwarming story. It's a must-play for fans of the genre.",
     "price": "10.99",
     "image": "https://i0.wp.com/www.games1122.com/wp-content/uploads/2016/08/Undertale-PC-Game-Free-Download-1.jpg?fit=1280%2C720&ssl=1"
   },
   {
-    "title": "Night in the Woods",
+   "title": "Night in the Woods",
+    "genres": ["Adventure", "Visual novel"],
     "rating": "T",
     "description": "A story-driven adventure game about a young woman who returns home after dropping out of college. It's a heartwarming and funny game with a lot of heart.",
     "price": "19.99",
     "image": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/en_US/games/switch/n/night-in-the-woods-switch/hero"
   },
   {
-    "title": "Oxenfree",
+   "title": "Oxenfree",
+    "genres": ["Adventure", "Point-and-click"],
     "rating": "T",
     "description": "A narrative adventure game with a branching story and a unique dialogue system. It's a great game to play with friends.",
     "price": "9.99",
     "image": "https://i.ytimg.com/vi/NAhrOoNR4ng/maxresdefault.jpg"
   },
   {
-    "title": "Shovel Knight: Treasure Trove",
+   "title": "Shovel Knight: Treasure Trove",
+    "genres": ["Platformer", "Metroidvania"],
     "rating": "T",
     "description": "A 2D platformer with a retro style and a great soundtrack. It's a must-play for fans of the genre.",
     "price": "19.99",
     "image": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/en_US/games/switch/s/shovel-knight-treasure-trove-switch/hero"
   },
   {
-    "title": "Ori and the Blind Forest",
+   "title": "Ori and the Blind Forest",
+    "genres": ["Metroidvania", "Platformer"],
     "rating": "E",
     "description": "A metroidvania with a beautiful world to explore and challenging platforming. It's a must-play for fans of the genre.",
     "price": "19.99",
     "image": "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/ncom/en_US/games/switch/o/ori-and-the-blind-forest-definitive-edition-switch/hero"
   },
   {
-    "title": "A Hat in Time",
+   "title": "A Hat in Time",
+    "genres": ["Platformer", "Collectathon"],
     "rating": "E10+",
     "description": "A 3D platformer with a charming art style and a great soundtrack. It's a must-play for fans of the genre.",
     "price": "24.99",
     "image": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000003813/32caf691ee34a12f7ca126f3905fea623a7ac30f5d604f9ac950460f25704ff4"
   },
   {
-    "title": "Untitled Goose Game",
+   "title": "Untitled Goose Game",
+    "genres": ["Stealth", "Adventure"],
     "rating": "E",
     "description": "A stealth game where you play as a goose who is causing havoc in a small town. It's a hilarious and charming game that's perfect for all ages.",
     "price": "19.99",
@@ -210,6 +239,7 @@
   },
   {
     "title": "Dark Souls Remastered",
+    "genres": ["Action role-playing game", "Soulslike"],
     "rating": "M",
     "description": "A challenging action RPG with a dark and atmospheric setting. It's a must-play for fans of the genre.",
     "price": "19.99",
@@ -217,6 +247,7 @@
   },
   {
     "title": "Mortal Kombat 11",
+    "genres": ["Fighting", "Action-adventure"],
     "rating": "M",
     "description": "A fighting game with a great story mode and a lot of content. It's a must-play for fans of the genre.",
     "price": "39.99",
@@ -224,6 +255,7 @@
   },
   {
     "title": "Doom Eternal",
+    "genres": ["First-person shooter", "Horror"],
     "rating": "M",
     "description": "A fast-paced first-person shooter with a great sense of action. It's a must-play for fans of the genre.",
     "price": "59.99",
@@ -231,6 +263,7 @@
   },
   {
     "title": "Wolfenstein: The New Order",
+    "genres": ["First-person shooter", "Action-adventure"],
     "rating": "M",
     "description": "A first-person shooter with a great story and a lot of action. It's a must-play for fans of the genre.",
     "price": "19.99",
@@ -238,6 +271,7 @@
   },
   {
     "title": "Prey",
+    "genres": ["Action-adventure", "Sci-fi"],
     "rating": "M",
     "description": "A first-person shooter with a great story and a lot of suspense. It's a must-play for fans of the genre.",
     "price": "19.99",
@@ -245,6 +279,7 @@
   },
   {
     "title": "Control",
+    "genres": ["Action-adventure", "Third-person shooter"],
     "rating": "M",
     "description": "A third-person action-adventure game with a great story and a lot of paranormal activity. It's a must-play for fans of the genre.",
     "price": "29.99",
@@ -252,6 +287,7 @@
   },
   {
     "title": "Ghostrunner",
+    "genres": ["Cyberpunk", "Metroidvania"],
     "rating": "M",
     "description": "A fast-paced first-person action game with a great sense of movement. It's a must-play for fans of the genre.",
     "price": "29.99",
@@ -259,6 +295,7 @@
   },
   {
     "title": "Sekiro: Shadows Die Twice",
+    "genres": ["Action-adventure", "Soulslike"],
     "rating": "M",
     "description": "A challenging action-adventure game with a great sense of difficulty. It's a must-play for fans of the genre.",
     "price": "59.99",
@@ -266,6 +303,7 @@
   },
   {
     "title": "Deathloop",
+    "genres": ["Action-adventure", "Timeloop"],
     "rating": "M",
     "description": "A time-loop action-adventure game with a great sense of humor. It's a must-play for fans of the genre.",
     "price": "39.99",
@@ -273,6 +311,7 @@
   },
   {
     "title": "Half-Life: Alyx",
+    "genres": ["First-person shooter", "Virtual reality"],
     "rating": "M",
     "description": "A first-person shooter with a great story and a lot of VR action. It's a must-play for fans of the genre.",
     "price": "49.99",
@@ -280,6 +319,7 @@
   },
   {
     "title": "Inscryption",
+    "genres": ["Card game", "Horror"],
     "rating": "M",
     "description": "A deck-building roguelike with a dark and disturbing atmosphere. It's a must-play for fans of the genre.",
     "price": "19.99",
@@ -287,6 +327,7 @@
   },
   {
     "title": "The Medium",
+    "genres": ["Action-adventure", "Horror"],
     "rating": "M",
     "description": "A psychological horror game with a great story and a unique gameplay mechanic. It's a must-play for fans of the genre.",
     "price": "39.99",
@@ -294,6 +335,7 @@
   },
   {
     "title": "Kena: Bridge of Spirits",
+    "genres": ["Action-adventure", "Action-RPG"],
     "rating": "M",
     "description": "A third-person action-adventure game with a great story and a beautiful art style. It's a must-play for fans of the genre.",
     "price": "39.99",
@@ -301,6 +343,7 @@
   },
   {
     "title": "Solar Ash",
+    "genres": ["Metroidvania", "Action-adventure"],
     "rating": "M",
     "description": "A third-person action-adventure game with a great sense of speed and a beautiful art style. It's a must-play for fans of the genre.",
     "price": "39.99",
@@ -308,6 +351,7 @@
   },
   {
     "title": "Stardew Valley",
+    "genres": ["Simulation", "Role-playing game"],
     "rating": "E",
     "description": "A farming simulator with a great sense of community and a lot of content. It's a must-play for fans of the genre.",
     "price": "14.99",
@@ -315,6 +359,7 @@
   },
   {
     "title": "Cuphead",
+    "genres": ["Run and gun", "Metroidvania"],
     "rating": "E",
     "description": "A run-and-gun game with a unique art style and challenging gameplay. It's a must-play for fans of the genre.",
     "price": "29.99",
@@ -322,6 +367,7 @@
   },
   {
     "title": "Slime Rancher",
+    "genres": ["Simulation", "Action-adventure"],
     "rating": "E",
     "description": "A farming simulator with a unique twist: you're raising slimes! It's a lot of fun and has a great sense of humor.",
     "price": "19.99",
@@ -329,6 +375,7 @@
   },
   {
     "title": "My Friend Pedro",
+    "genres": ["Action-adventure", "Platformer"],
     "rating": "T",
     "description": "A stylish action game with a unique control scheme. It's a lot of fun and has a great sense of humor.",
     "price": "19.99",
@@ -336,6 +383,7 @@
   },
   {
     "title": "Baba Is You",
+    "genres": ["Puzzle", "Word game"],
     "rating": "E",
     "description": "A puzzle game where you can change the rules of the game by rearranging the words. It's a lot of fun and very challenging.",
     "price": "14.99",
@@ -343,6 +391,7 @@
   },
   {
     "title": "Pikuniku",
+    "genres": ["Adventure", "Puzzle"],
     "rating": "E",
     "description": "A puzzle-platformer with a cute art style and a lot of humor. It's a lot of fun and perfect for all ages.",
     "price": "9.99",
@@ -350,6 +399,7 @@
   },
   {
     "title": "The Gardens Between",
+    "genres": ["Puzzle", "Adventure"],
     "rating": "E",
     "description": "A puzzle game where you travel through time to solve puzzles. It's a beautiful and emotional game.",
     "price": "14.99",
@@ -357,6 +407,7 @@
   },
   {
     "title": "To The Moon",
+    "genres": ["Adventure", "Visual novel"],
     "rating": "E",
     "description": "A story-driven adventure game about two doctors who help a dying man fulfill his last wishes. It's a beautiful and emotional game.",
     "price": "9.99",
@@ -364,6 +415,7 @@
   },
   {
     "title": "Minecraft",
+    "genres": ["Sandbox", "Open world"],
     "rating": "E10+",
     "description": "A sandbox game where you can build anything you can imagine. It's a lot of fun and perfect for all ages.",
     "price": "26.95",
@@ -371,6 +423,7 @@
   },
   {
     "title": "Rocket League",
+    "genres": ["Sports", "Vehicular combat"],
     "rating": "E10+",
     "description": "A vehicular soccer game where you control cars to score goals. It's a lot of fun and perfect for all ages.",
     "price": "19.99",
@@ -378,6 +431,7 @@
   },
   {
     "title": "Splatoon 2",
+    "genres": ["Third-person shooter", "Third-person arena combat"],
     "rating": "E10+",
     "description": "A third-person shooter where you control squids to shoot ink at each other. It's a lot of fun and perfect for all ages.",
     "price": "19.99",
@@ -385,6 +439,7 @@
   },
   {
     "title": "Overcooked!",
+    "genres": ["Co-operative cooking", "Party game"],
     "rating": "E10+",
     "description": "A cooking simulator where you have to work together with your friends to cook food. It's a lot of fun and perfect for all ages.",
     "price": "14.99",
@@ -392,6 +447,7 @@
   },
   {
     "title": "It Takes Two",
+    "genres": ["Co-operative", "Platformer"],
     "rating": "E10+",
     "description": "A co-op adventure game where you play as two parents who have been turned into dolls. You have to work together to solve puzzles and defeat enemies.",
     "price": "29.99",
@@ -399,6 +455,7 @@
   },
   {
     "title": "Bugsnax",
+    "genres": ["Adventure", "Collectathon"],
     "rating": "E10+",
     "description": "A collectathon adventure game where you collect food creatures called Bugsnax. The game is full of humor and charm.",
     "price": "19.99",
@@ -406,6 +463,7 @@
   },
   {
     "title": "Astro's Playroom",
+    "genres": ["Platformer", "3D platformer"],
     "rating": "E10+",
     "description": "A 3D platformer that comes pre-installed on all PlayStation 5 consoles. It's a lot of fun and shows off the power of the PS5.",
     "price": "Free",
@@ -413,6 +471,7 @@
   },
   {
     "title": "Little Nightmares 2",
+    "genres": ["Platformer", "Horror"],
     "rating": "E10+",
     "description": "A puzzle-platformer where you play as a young girl who is trying to escape a dark and twisted world. It's a beautiful and atmospheric game.",
     "price": "19.99",
@@ -420,11 +479,10 @@
   },
   {
     "title": "New Super Lucky's Tale",
+    "genres": ["Platformer"],
     "rating": "E10+",
     "description": "A 3D platformer in the vein of Super Mario 64. It's a lot of fun and perfect for all ages.",
     "price": "19.99",
     "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1038300/capsule_616x353.jpg?t=1667224805"
   }
 ]
-
-
