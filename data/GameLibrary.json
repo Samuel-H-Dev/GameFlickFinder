@@ -1,488 +1,1044 @@
 [
   {
     "title": "Elden Ring",
-    "genres": ["Action RPG", "Open World"],
+    "linkTitle": "Elden-Ring",
+    "genres": [
+      "Action",
+      "RPG",
+      "Open World"
+    ],
     "rating": "M",
-    "description": "A fantasy action RPG developed by FromSoftware and published by Bandai Namco Entertainment.",
+    "cardDescription": "A fantasy action RPG developed by FromSoftware and published by Bandai Namco Entertainment.",  
+    "gameOverview": "Elden Ring is an action role-playing game developed by FromSoftware and published by Bandai Namco Entertainment. The game is set in the Lands Between, after the destruction of the titular Elden Ring and the scattering of its shards, the Great Runes. Players must traverse the realm to find all the Great Runes, restore the Elden Ring, and become the Elden Lord. The game features open world exploration, challenging and rewarding combat, character customization, and a rich and complex story. Elden Ring is a challenging but rewarding experience that is sure to please fans of action role-playing games. Elden Ring is a great choice for players who are looking for a challenging but rewarding experience with a great story, open world exploration, and exciting gameplay. ",
+
     "price": 59.99,
-    "image": "https://www.zeldadungeon.net/wp-content/uploads/2022/04/eldenringbannerRS.jpg"
+    "image": "https://www.zeldadungeon.net/wp-content/uploads/2022/04/eldenringbannerRS.jpg",
+    "trailer": "https://www.youtube.com/embed/E3Huy2cdih0",
+    "PS": "https://store.playstation.com/en-us/concept/10000333",
+    "XB": "https://www.xbox.com/en-US/games/elden-ring",
+    "Switch": "",
+    "PC": "https://store.steampowered.com/app/1245620/ELDEN_RING/"
   },
   {
-        "title": "Grand Theft Auto V",
-    "genres": ["Action-adventure", "Open World"],
+    "title": "Grand Theft Auto V",
+    "linkTitle": "Grand-Theft-Auto-V",
+    "genres": [
+      "Action",
+      "Open World"
+    ],
     "rating": "M",
-    "description": "An action-adventure game developed by Rockstar North and published by Rockstar Games.",
+    "cardDescription": "An action-adventure game developed by Rockstar North and published by Rockstar Games.",
     "price": 39.99,
-    "image": "https://virtualbackgrounds.site/wp-content/uploads/2021/02/grand-theft-auto-v-cover-art.jpg"
+    "image": "https://virtualbackgrounds.site/wp-content/uploads/2021/02/grand-theft-auto-v-cover-art.jpg",
+    "trailer": "https://www.youtube.com/embed/hvoD7ehZPcM",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
-        "title": "The Legend of Zelda: Breath of the Wild",
-    "genres": ["Action-adventure", "Open World"],
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "linkTitle": "The-Legend-of-Zelda:Breath-of-the-Wild",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Open World"
+    ],
     "rating": "E10+",
-    "description": "An action-adventure game developed and published by Nintendo.",
+    "cardDescription": "An action-adventure game developed and published by Nintendo.",
     "price": 59.99,
-    "image": "https://cdn.wccftech.com/wp-content/uploads/2017/01/Zelda-Breath-of-the-Wild-screenshots6.jpg"
+    "image": "https://cdn.wccftech.com/wp-content/uploads/2017/01/Zelda-Breath-of-the-Wild-screenshots6.jpg",
+    "trailer": "https://www.youtube.com/embed/1rPxiXXxftE",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
-        "title": "Red Dead Redemption 2",
-    "genres": ["Action-adventure", "Open World"],
+    "title": "Red Dead Redemption 2",
+    "linkTitle": "Red-Dead-Redemption-2",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Open World"
+    ],
     "rating": "M",
-    "description": "An action-adventure game developed by Rockstar Studios and published by Rockstar Games.",
+    "cardDescription": "An action-adventure game developed by Rockstar Studios and published by Rockstar Games.",
     "price": 39.99,
-    "image": "https://www.rocketchainsaw.com.au/wp-content/uploads/2018/05/Red-Dead-Redemption-2-New-Logo.jpg"
+    "image": "https://www.rocketchainsaw.com.au/wp-content/uploads/2018/05/Red-Dead-Redemption-2-New-Logo.jpg",
+    "trailer": "https://www.youtube.com/embed/eaW0tYpxyp0",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
-        "title": "Super Mario Odyssey",
-    "genres": ["Platformer"],
+    "title": "Super Mario Odyssey",
+    "linkTitle": "Super-Mario-Odyssey",
+    "genres": [
+      "Platformer"
+    ],
     "rating": "E",
-    "description": "A platform game developed and published by Nintendo.",
+    "cardDescription": "A platform game developed and published by Nintendo.",
     "price": 49.99,
-    "image": "https://www.gamespot.com/a/uploads/original/1597/15971423/3828643-4944281787-3307356-4408074781-4376aef55bbee8791e8a8ab75a7f99b1.jpg"
+    "image": "https://www.gamespot.com/a/uploads/original/1597/15971423/3828643-4944281787-3307356-4408074781-4376aef55bbee8791e8a8ab75a7f99b1.jpg",
+    "trailer": "https://www.youtube.com/embed/wGQHQc_3ycE",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
-        "title": "God of War",
-    "genres": ["Action-adventure", "Hack and slash"],
+    "title": "God of War",
+    "linkTitle": "God-of-War",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Hack and slash"
+    ],
     "rating": "M",
-    "description": "An action-adventure game developed by Santa Monica Studio and published by Sony Interactive Entertainment.",
+    "cardDescription": "An action-adventure game developed by Santa Monica Studio and published by Sony Interactive Entertainment.",
     "price": 49.99,
-    "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/07/god-of-war-1.jpg"
+    "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/07/god-of-war-1.jpg",
+    "trailer": "https://www.youtube.com/embed/K0u_kAWLJOA",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
-        "title": "Horizon Forbidden West",
-    "genres": ["Action-adventure", "Open World"],
+    "title": "Horizon Forbidden West",
+    "linkTitle": "Horizon-Forbidden-West",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Open World"
+    ],
     "rating": "T",
-    "description": "An action role-playing game developed by Guerrilla Games and published by Sony Interactive Entertainment.",
+    "cardDescription": "An action role-playing game developed by Guerrilla Games and published by Sony Interactive Entertainment.",
     "price": 59.99,
-    "image": "https://twistedvoxel.com/wp-content/uploads/2020/07/horizon-forbidden-west-boxart-2.jpg"
+    "image": "https://twistedvoxel.com/wp-content/uploads/2020/07/horizon-forbidden-west-boxart-2.jpg",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
-        "title": "Ratchet & Clank: Rift Apart",
-    "genres": ["Platformer", "Third-person shooter"],
+    "title": "Ratchet & Clank: Rift Apart",
+    "linkTitle": "Ratchet-&-Clank:Rift-Apart",
+    "genres": [
+      "Platformer",
+      "Third-person shooter"
+    ],
     "rating": "E10+",
-    "description": "A 3D platform game developed by Insomniac Games and published by Sony Interactive Entertainment.",
+    "cardDescription": "A 3D platform game developed by Insomniac Games and published by Sony Interactive Entertainment.",
     "price": 49.99,
-    "image": "https://assets-prd.ignimgs.com/2021/02/11/screenshot-2021-02-11-rcra-keyart-primary-16x9-20210208-jpg-webp-image-1088-612-pixels-1613060167777.jpg"
+    "image": "https://assets-prd.ignimgs.com/2021/02/11/screenshot-2021-02-11-rcra-keyart-primary-16x9-20210208-jpg-webp-image-1088-612-pixels-1613060167777.jpg",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
-        "title": "God of War Ragnarök",
-    "genres": ["Action-adventure", "Hack and slash"],
+    "title": "God of War Ragnarök",
+    "linkTitle": "God-of-War-Ragnarök",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Hack and slash"
+    ],
     "rating": "M",
-    "description": "An action-adventure game developed by Santa Monica Studio and published by Sony Interactive Entertainment.",
+    "cardDescription": "An action-adventure game developed by Santa Monica Studio and published by Sony Interactive Entertainment.",
     "price": 59.99,
-    "image": "https://static1.thegamerimages.com/wordpress/wp-content/uploads/2021/09/GodofWarRagnarok.jpg"
+    "image": "https://static1.thegamerimages.com/wordpress/wp-content/uploads/2021/09/GodofWarRagnarok.jpg",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
-        "title": "Spider-Man: Miles Morales",
-    "genres": ["Action-adventure", "3D platformer"],
+    "title": "Spider-Man: Miles Morales",
+    "linkTitle": "Spider-Man:Miles-Morales",
+    "genres": [
+      "Action",
+      "Adventure",
+      "3D platformer"
+    ],
     "rating": "T",
-    "description": "An action-adventure game developed by Insomniac Games and published by Sony Interactive Entertainment.",
+    "cardDescription": "An action-adventure game developed by Insomniac Games and published by Sony Interactive Entertainment.",
     "price": 49.99,
-    "image": "https://assets1.ignimgs.com/2020/07/09/50094555187-7f5e4b4325-o-1594314477109_160w.jpg?width=1280"
+    "image": "https://assets1.ignimgs.com/2020/07/09/50094555187-7f5e4b4325-o-1594314477109_160w.jpg?width=1280",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
-        "title": "Ghost of Tsushima",
-    "genres": ["Action-adventure", "Open World"],
+    "title": "Ghost of Tsushima",
+    "linkTitle": "Ghost-of-Tsushima",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Open World"
+    ],
     "rating": "M",
-    "description": "An action-adventure game developed by Sucker Punch Productions and published by Sony Interactive Entertainment.",
+    "cardDescription": "An action-adventure game developed by Sucker Punch Productions and published by Sony Interactive Entertainment.",
     "price": 59.99,
-    "image": "https://mp1st.com/wp-content/uploads/2021/06/Ghost-of-Tsushima-PC-version.jpg"
+    "image": "https://mp1st.com/wp-content/uploads/2021/06/Ghost-of-Tsushima-PC-version.jpg",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
-        "title": "Cyberpunk 2077",
-    "genres": ["Action-adventure", "Open World"],
+    "title": "Cyberpunk 2077",
+    "linkTitle": "Cyberpunk-2077",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Open World"
+    ],
     "rating": "M",
-    "description": "An action role-playing game developed and published by CD Projekt.",
+    "cardDescription": "An action role-playing game developed and published by CD Projekt.",
     "price": 59.99,
-    "image": "https://cdna.artstation.com/p/assets/images/images/033/037/886/large/artur-tarnowski-malemain.jpg?1608208334"
+    "image": "https://cdna.artstation.com/p/assets/images/images/033/037/886/large/artur-tarnowski-malemain.jpg?1608208334",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
-   "title": "Celeste",
-    "genres": ["Platformer", "Metroidvania"],
+    "title": "Celeste",
+    "linkTitle": "Celeste",
+    "genres": [
+      "Platformer",
+      "Metroidvania"
+    ],
     "rating": "E10+",
-    "description": "A 2D platformer with a focus on precision and difficulty. It has a great story and a soundtrack that will stay with you long after you finish the game.",
+    "cardDescription": "A 2D platformer with a focus on precision and difficulty. It has a great story and a soundtrack that will stay with you long after you finish the game.",
     "price": 19.99,
-    "image": "https://cdn.mobygames.com/covers/9047370-celeste-nintendo-switch-front-cover.jpg"
+    "image": "https://cdn.mobygames.com/covers/9047370-celeste-nintendo-switch-front-cover.jpg",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
-   "title": "Hollow Knight",
-    "genres": ["Metroidvania", "Action-adventure"],
+    "title": "Hollow Knight",
+    "linkTitle": "Hollow-Knight",
+    "genres": [
+      "Metroidvania",
+      "Action",
+      "Adventure"
+    ],
     "rating": "E10+",
-    "description": "A 2D metroidvania with a beautiful world to explore and challenging boss fights. It's a must-play for fans of the genre.",
+    "cardDescription": "A 2D metroidvania with a beautiful world to explore and challenging boss fights. It's a must-play for fans of the genre.",
     "price": 14.99,
-    "image": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000003208/4643fb058642335c523910f3a7910575f56372f612f7c0c9a497aaae978d3e51"
+    "image": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000003208/4643fb058642335c523910f3a7910575f56372f612f7c0c9a497aaae978d3e51",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
-   "title": "The Outer Wilds",
-    "genres": ["Adventure", "Exploration"],
-    "rating": 4.8,
-    "description": "An open-world exploration game set in a solar system full of mysteries to uncover. It's a game that rewards curiosity and exploration.",
+    "title": "The Outer Wilds",
+    "linkTitle": "The-Outer-Wilds",
+    "genres": [
+      "Adventure",
+      "Exploration"
+    ],
+    "rating": "M",
+    "cardDescription": "An open-world exploration game set in a solar system full of mysteries to uncover. It's a game that rewards curiosity and exploration.",
     "price": 29.99,
-    "image": "https://uppercutcrit.com/wp-content/uploads/2019/12/cover.jpeg"
+    "image": "https://uppercutcrit.com/wp-content/uploads/2019/12/cover.jpeg",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
-   "title": "Returnal",
-    "genres": ["Action-adventure", "Roguelike"],
-    "rating": 4.7,
-    "description": "A roguelike action-adventure game with a unique gameplay loop. You play as Selene, a woman who is trapped on a planet that resets every time she dies.",
+    "title": "Returnal",
+    "linkTitle": "Returnal",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Roguelike"
+    ],
+    "rating": "T",
+    "cardDescription": "A roguelike action-adventure game with a unique gameplay loop. You play as Selene, a woman who is trapped on a planet that resets every time she dies.",
     "price": 79.99,
-    "image": "https://i0.wp.com/onlysky.media/wp-content/uploads/2021/12/Returnal-game-review.png?fit=1200%2C675&ssl=1"
+    "image": "https://i0.wp.com/onlysky.media/wp-content/uploads/2021/12/Returnal-game-review.png?fit=1200%2C675&ssl=1",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
-   "title": "What Remains of Edith Finch",
-    "genres": ["Adventure", "Walking simulator"],
+    "title": "What Remains of Edith Finch",
+    "linkTitle": "What-Remains-of-Edith-Finch",
+    "genres": [
+      "Adventure",
+      "Walking simulator"
+    ],
     "rating": 4.9,
-    "description": "A walking simulator with a unique story-telling style. You play as Edith Finch, who is exploring her family's home after they have all died in mysterious ways.",
+    "cardDescription": "A walking simulator with a unique story-telling style. You play as Edith Finch, who is exploring her family's home after they have all died in mysterious ways.",
     "price": 19.99,
-    "image": "https://i0.wp.com/bounthavy.com/wp-content/uploads/2020/07/What-Remains-of-Edith-Finch-14.jpg?fit=1600%2C740&ssl=1"
+    "image": "https://i0.wp.com/bounthavy.com/wp-content/uploads/2020/07/What-Remains-of-Edith-Finch-14.jpg?fit=1600%2C740&ssl=1",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
-   "title": "Disco Elysium",
-    "genres": ["Role-playing game", "Adventure"],
+    "title": "Disco Elysium",
+    "linkTitle": "Disco-Elysium",
+    "genres": [
+      "RPG",
+      "Adventure"
+    ],
     "rating": 4.9,
-    "description": "A role-playing game with a focus on dialogue and choices. You play as a disgraced detective who is trying to solve a murder in a city full of corruption.",
+    "cardDescription": "A role-playing game with a focus on dialogue and choices. You play as a disgraced detective who is trying to solve a murder in a city full of corruption.",
     "price": 29.99,
-    "image": "https://discoelysium.iam8bit.com/storage/static/share.jpg"
+    "image": "https://discoelysium.iam8bit.com/storage/static/share.jpg",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
-   "title": "Firewatch",
-    "genres": ["Adventure", "Walking simulator"],
+    "title": "Firewatch",
+    "linkTitle": "Firewatch",
+    "genres": [
+      "Adventure",
+      "Walking simulator"
+    ],
     "rating": 4.8,
-    "description": "A narrative adventure game set in a remote wilderness. You play as Henry, a fire lookout who is trying to find a missing hiker.",
+    "cardDescription": "A narrative adventure game set in a remote wilderness. You play as Henry, a fire lookout who is trying to find a missing hiker.",
     "price": 19.99,
-    "image": "https://variety.com/wp-content/uploads/2018/04/firewatch.png"
+    "image": "https://variety.com/wp-content/uploads/2018/04/firewatch.png",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
-   "title": "Inside",
-    "genres": ["Adventure", "Puzzle-platformer"],
+    "title": "Inside",
+    "linkTitle": "Inside",
+    "genres": [
+      "Adventure",
+      "Puzzle-platformer"
+    ],
     "rating": 4.9,
-    "description": "A puzzle-platformer with a dark and disturbing atmosphere. It's a short game, but it's definitely worth playing.",
+    "cardDescription": "A puzzle-platformer with a dark and disturbing atmosphere. It's a short game, but it's definitely worth playing.",
     "price": 19.99,
-    "image": "https://cdn.mobygames.com/screenshots/3972415-inside-windows-title-screen.jpg"
+    "image": "https://cdn.mobygames.com/screenshots/3972415-inside-windows-title-screen.jpg",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
-
-
-
-
-
-
   {
-   "title": "Limbo",
-    "genres": ["Adventure", "Puzzle-platformer"],
+    "title": "Limbo",
+    "linkTitle": "Limbo",
+    "genres": [
+      "Adventure",
+      "Puzzle-platformer"
+    ],
     "rating": "T",
-    "description": "A 2D puzzle-platformer with a dark and atmospheric setting. It's a short game, but it's definitely worth playing.",
+    "cardDescription": "A 2D puzzle-platformer with a dark and atmospheric setting. It's a short game, but it's definitely worth playing.",
     "price": "9.99",
-    "image": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000005802/19a3297c0c77743d3e2fc30b137d6c652608bc6b2c1cccf1aef48836e96a685e"
+    "image": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000005802/19a3297c0c77743d3e2fc30b137d6c652608bc6b2c1cccf1aef48836e96a685e",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
-   "title": "Little Nightmares",
-    "genres": ["Platformer", "Horror"],
+    "title": "Little Nightmares",
+    "linkTitle": "Little-Nightmares",
+    "genres": [
+      "Platformer",
+      "Horror"
+    ],
     "rating": "T",
-    "description": "A 2.5D puzzle-platformer with a creepy and disturbing atmosphere. It's a short game, but it's definitely worth playing.",
+    "cardDescription": "A 2.5D puzzle-platformer with a creepy and disturbing atmosphere. It's a short game, but it's definitely worth playing.",
     "price": "19.99",
-    "image": "https://www.hollywoodreporter.com/wp-content/uploads/2017/05/little_nightmares_game_cover_-_publicity_-_h_2017.jpg"
+    "image": "https://www.hollywoodreporter.com/wp-content/uploads/2017/05/little_nightmares_game_cover_-_publicity_-_h_2017.jpg",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
-   "title": "Undertale",
-    "genres": ["Role-playing game", "Adventure"],
+    "title": "Undertale",
+    "linkTitle": "Undertale",
+    "genres": [
+      "RPG",
+      "Adventure"
+    ],
     "rating": "E10+",
-    "description": "An indie role-playing game with a unique battle system and a heartwarming story. It's a must-play for fans of the genre.",
+    "cardDescription": "An indie role-playing game with a unique battle system and a heartwarming story. It's a must-play for fans of the genre.",
     "price": "10.99",
-    "image": "https://i0.wp.com/www.games1122.com/wp-content/uploads/2016/08/Undertale-PC-Game-Free-Download-1.jpg?fit=1280%2C720&ssl=1"
+    "image": "https://i0.wp.com/www.games1122.com/wp-content/uploads/2016/08/Undertale-PC-Game-Free-Download-1.jpg?fit=1280%2C720&ssl=1",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
-   "title": "Night in the Woods",
-    "genres": ["Adventure", "Visual novel"],
+    "title": "Night in the Woods",
+    "linkTitle": "Night-in-the-Woods",
+    "genres": [
+      "Adventure",
+      "Visual novel"
+    ],
     "rating": "T",
-    "description": "A story-driven adventure game about a young woman who returns home after dropping out of college. It's a heartwarming and funny game with a lot of heart.",
+    "cardDescription": "A story-driven adventure game about a young woman who returns home after dropping out of college. It's a heartwarming and funny game with a lot of heart.",
     "price": "19.99",
-    "image": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/en_US/games/switch/n/night-in-the-woods-switch/hero"
+    "image": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/en_US/games/switch/n/night-in-the-woods-switch/hero",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
-   "title": "Oxenfree",
-    "genres": ["Adventure", "Point-and-click"],
+    "title": "Oxenfree",
+    "linkTitle": "Oxenfree",
+    "genres": [
+      "Adventure",
+      "Point-and-click"
+    ],
     "rating": "T",
-    "description": "A narrative adventure game with a branching story and a unique dialogue system. It's a great game to play with friends.",
+    "cardDescription": "A narrative adventure game with a branching story and a unique dialogue system. It's a great game to play with friends.",
     "price": "9.99",
-    "image": "https://i.ytimg.com/vi/NAhrOoNR4ng/maxresdefault.jpg"
+    "image": "https://i.ytimg.com/vi/NAhrOoNR4ng/maxresdefault.jpg",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
-   "title": "Shovel Knight: Treasure Trove",
-    "genres": ["Platformer", "Metroidvania"],
+    "title": "Shovel Knight: Treasure Trove",
+    "linkTitle": "Shovel-Knight:Treasure-Trove",
+    "genres": [
+      "Platformer",
+      "Metroidvania"
+    ],
     "rating": "T",
-    "description": "A 2D platformer with a retro style and a great soundtrack. It's a must-play for fans of the genre.",
+    "cardDescription": "A 2D platformer with a retro style and a great soundtrack. It's a must-play for fans of the genre.",
     "price": "19.99",
-    "image": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/en_US/games/switch/s/shovel-knight-treasure-trove-switch/hero"
+    "image": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/en_US/games/switch/s/shovel-knight-treasure-trove-switch/hero",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
-   "title": "Ori and the Blind Forest",
-    "genres": ["Metroidvania", "Platformer"],
+    "title": "Ori and the Blind Forest",
+    "linkTitle": "Ori-and-the-Blind-Forest",
+    "genres": [
+      "Metroidvania",
+      "Platformer"
+    ],
     "rating": "E",
-    "description": "A metroidvania with a beautiful world to explore and challenging platforming. It's a must-play for fans of the genre.",
+    "cardDescription": "A metroidvania with a beautiful world to explore and challenging platforming. It's a must-play for fans of the genre.",
     "price": "19.99",
-    "image": "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/ncom/en_US/games/switch/o/ori-and-the-blind-forest-definitive-edition-switch/hero"
+    "image": "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/ncom/en_US/games/switch/o/ori-and-the-blind-forest-definitive-edition-switch/hero",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
-   "title": "A Hat in Time",
-    "genres": ["Platformer", "Collectathon"],
+    "title": "A Hat in Time",
+    "linkTitle": "A-Hat-in-Time",
+    "genres": [
+      "Platformer",
+      "Collectathon"
+    ],
     "rating": "E10+",
-    "description": "A 3D platformer with a charming art style and a great soundtrack. It's a must-play for fans of the genre.",
+    "cardDescription": "A 3D platformer with a charming art style and a great soundtrack. It's a must-play for fans of the genre.",
     "price": "24.99",
-    "image": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000003813/32caf691ee34a12f7ca126f3905fea623a7ac30f5d604f9ac950460f25704ff4"
+    "image": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000003813/32caf691ee34a12f7ca126f3905fea623a7ac30f5d604f9ac950460f25704ff4",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
-   "title": "Untitled Goose Game",
-    "genres": ["Stealth", "Adventure"],
+    "title": "Untitled Goose Game",
+    "linkTitle": "Untitled-Goose-Game",
+    "genres": [
+      "Stealth",
+      "Adventure"
+    ],
     "rating": "E",
-    "description": "A stealth game where you play as a goose who is causing havoc in a small town. It's a hilarious and charming game that's perfect for all ages.",
+    "cardDescription": "A stealth game where you play as a goose who is causing havoc in a small town. It's a hilarious and charming game that's perfect for all ages.",
     "price": "19.99",
-    "image": "https://assets.altarofgaming.com/wp-content/uploads/2023/01/untitled-goose-game-game-cover-altar-of-gaming.jpg"
+    "image": "https://assets.altarofgaming.com/wp-content/uploads/2023/01/untitled-goose-game-game-cover-altar-of-gaming.jpg",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
     "title": "Dark Souls Remastered",
-    "genres": ["Action role-playing game", "Soulslike"],
+    "linkTitle": "Dark-Souls-Remastered",
+    "genres": [
+      "Action role-playing game",
+      "Soulslike"
+    ],
     "rating": "M",
-    "description": "A challenging action RPG with a dark and atmospheric setting. It's a must-play for fans of the genre.",
+    "cardDescription": "A challenging action RPG with a dark and atmospheric setting. It's a must-play for fans of the genre.",
     "price": "19.99",
-    "image": "https://cdn.wccftech.com/wp-content/uploads/2018/05/dark_souls_remastered_bonfire.jpg"
+    "image": "https://cdn.wccftech.com/wp-content/uploads/2018/05/dark_souls_remastered_bonfire.jpg",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
     "title": "Mortal Kombat 11",
-    "genres": ["Fighting", "Action-adventure"],
+    "linkTitle": "Mortal-Kombat-11",
+    "genres": [
+      "Fighting",
+      "Action",
+      "Adventure"
+    ],
     "rating": "M",
-    "description": "A fighting game with a great story mode and a lot of content. It's a must-play for fans of the genre.",
+    "cardDescription": "A fighting game with a great story mode and a lot of content. It's a must-play for fans of the genre.",
     "price": "39.99",
-    "image": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/en_US/dlc/switch-dlc/mortal-kombat-11-dlc/rom-bundle/mortal-kombat-11-ultimate/image"
+    "image": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/en_US/dlc/switch-dlc/mortal-kombat-11-dlc/rom-bundle/mortal-kombat-11-ultimate/image",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
     "title": "Doom Eternal",
-    "genres": ["First-person shooter", "Horror"],
+    "linkTitle": "Doom-Eternal",
+    "genres": [
+      "First-person shooter",
+      "Horror"
+    ],
     "rating": "M",
-    "description": "A fast-paced first-person shooter with a great sense of action. It's a must-play for fans of the genre.",
+    "cardDescription": "A fast-paced first-person shooter with a great sense of action. It's a must-play for fans of the genre.",
     "price": "59.99",
-    "image": "https://n8t8d9t2.rocketcdn.me/wp-content/uploads/2021/04/DOOM-Eternal_KeyArt_3_1920x1080.jpg"
+    "image": "https://n8t8d9t2.rocketcdn.me/wp-content/uploads/2021/04/DOOM-Eternal_KeyArt_3_1920x1080.jpg",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
     "title": "Wolfenstein: The New Order",
-    "genres": ["First-person shooter", "Action-adventure"],
+    "linkTitle": "Wolfenstein:The-New-Order",
+    "genres": [
+      "First-person shooter",
+      "Action",
+      "Adventure"
+    ],
     "rating": "M",
-    "description": "A first-person shooter with a great story and a lot of action. It's a must-play for fans of the genre.",
+    "cardDescription": "A first-person shooter with a great story and a lot of action. It's a must-play for fans of the genre.",
     "price": "19.99",
-    "image": "https://cdn.gameref.art/wp-content/uploads/games/wno/cover/wno_cover.jpg"
+    "image": "https://cdn.gameref.art/wp-content/uploads/games/wno/cover/wno_cover.jpg",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
     "title": "Prey",
-    "genres": ["Action-adventure", "Sci-fi"],
+    "linkTitle": "Prey",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-fi"
+    ],
     "rating": "M",
-    "description": "A first-person shooter with a great story and a lot of suspense. It's a must-play for fans of the genre.",
+    "cardDescription": "A first-person shooter with a great story and a lot of suspense. It's a must-play for fans of the genre.",
     "price": "19.99",
-    "image": "https://assets.altarofgaming.com/wp-content/uploads/2022/10/prey-2017-game-cover-altar-of-gaming.jpg"
+    "image": "https://assets.altarofgaming.com/wp-content/uploads/2022/10/prey-2017-game-cover-altar-of-gaming.jpg",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
     "title": "Control",
-    "genres": ["Action-adventure", "Third-person shooter"],
+    "linkTitle": "Control",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Third-person shooter"
+    ],
     "rating": "M",
-    "description": "A third-person action-adventure game with a great story and a lot of paranormal activity. It's a must-play for fans of the genre.",
+    "cardDescription": "A third-person action-adventure game with a great story and a lot of paranormal activity. It's a must-play for fans of the genre.",
     "price": "29.99",
-    "image": "https://waytoomany.games/wp-content/uploads/2019/07/Control-Cover-Image.jpg"
+    "image": "https://waytoomany.games/wp-content/uploads/2019/07/Control-Cover-Image.jpg",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
     "title": "Ghostrunner",
-    "genres": ["Cyberpunk", "Metroidvania"],
+    "linkTitle": "Ghostrunner",
+    "genres": [
+      "Cyberpunk",
+      "Metroidvania"
+    ],
     "rating": "M",
-    "description": "A fast-paced first-person action game with a great sense of movement. It's a must-play for fans of the genre.",
+    "cardDescription": "A fast-paced first-person action game with a great sense of movement. It's a must-play for fans of the genre.",
     "price": "29.99",
-    "image": "https://cdnb.artstation.com/p/assets/images/images/036/014/679/large/marek-okon-mo-ghost-runner-web-01.jpg?1616510617"
+    "image": "https://cdnb.artstation.com/p/assets/images/images/036/014/679/large/marek-okon-mo-ghost-runner-web-01.jpg?1616510617",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
     "title": "Sekiro: Shadows Die Twice",
-    "genres": ["Action-adventure", "Soulslike"],
+    "linkTitle": "Sekiro:Shadows-Die-Twice",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Soulslike"
+    ],
     "rating": "M",
-    "description": "A challenging action-adventure game with a great sense of difficulty. It's a must-play for fans of the genre.",
+    "cardDescription": "A challenging action-adventure game with a great sense of difficulty. It's a must-play for fans of the genre.",
     "price": "59.99",
-    "image": "https://sm.ign.com/ign_ap/screenshot/default/cover_rbt3.png"
+    "image": "https://sm.ign.com/ign_ap/screenshot/default/cover_rbt3.png",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
     "title": "Deathloop",
-    "genres": ["Action-adventure", "Timeloop"],
+    "linkTitle": "Deathloop",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Timeloop"
+    ],
     "rating": "M",
-    "description": "A time-loop action-adventure game with a great sense of humor. It's a must-play for fans of the genre.",
+    "cardDescription": "A time-loop action-adventure game with a great sense of humor. It's a must-play for fans of the genre.",
     "price": "39.99",
-    "image": "https://www.trustedreviews.com/wp-content/uploads/sites/54/2020/06/Deathloop-BondPoster-NOLOOP_Wallpaper_2048x1080-01.jpg"
+    "image": "https://www.trustedreviews.com/wp-content/uploads/sites/54/2020/06/Deathloop-BondPoster-NOLOOP_Wallpaper_2048x1080-01.jpg",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
     "title": "Half-Life: Alyx",
-    "genres": ["First-person shooter", "Virtual reality"],
+    "linkTitle": "Half-Life:Alyx",
+    "genres": [
+      "First-person shooter",
+      "Virtual reality"
+    ],
     "rating": "M",
-    "description": "A first-person shooter with a great story and a lot of VR action. It's a must-play for fans of the genre.",
+    "cardDescription": "A first-person shooter with a great story and a lot of VR action. It's a must-play for fans of the genre.",
     "price": "49.99",
-    "image": "https://static.invenglobal.com/upload/image/2019/11/21/i1574362064981094.jpeg"
+    "image": "https://static.invenglobal.com/upload/image/2019/11/21/i1574362064981094.jpeg",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
     "title": "Inscryption",
-    "genres": ["Card game", "Horror"],
+    "linkTitle": "Inscryption",
+    "genres": [
+      "Card game",
+      "Horror"
+    ],
     "rating": "M",
-    "description": "A deck-building roguelike with a dark and disturbing atmosphere. It's a must-play for fans of the genre.",
+    "cardDescription": "A deck-building roguelike with a dark and disturbing atmosphere. It's a must-play for fans of the genre.",
     "price": "19.99",
-    "image": "https://cdnb.artstation.com/p/assets/covers/images/052/338/541/large/marcelo-orsi-blanco-marcelo-orsi-blanco-inscryption-final-small-title.jpg?1659540622"
+    "image": "https://cdnb.artstation.com/p/assets/covers/images/052/338/541/large/marcelo-orsi-blanco-marcelo-orsi-blanco-inscryption-final-small-title.jpg?1659540622",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
     "title": "The Medium",
-    "genres": ["Action-adventure", "Horror"],
+    "linkTitle": "The-Medium",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Horror"
+    ],
     "rating": "M",
-    "description": "A psychological horror game with a great story and a unique gameplay mechanic. It's a must-play for fans of the genre.",
+    "cardDescription": "A psychological horror game with a great story and a unique gameplay mechanic. It's a must-play for fans of the genre.",
     "price": "39.99",
-    "image": "https://images.gog-statics.com/f8bb2b529c58e1fa3fc9fc02d1d3032caa1b0ead9c8e2c5ed9c13cc9afe448c9_product_card_v2_mobile_slider_639.jpg"
+    "image": "https://images.gog-statics.com/f8bb2b529c58e1fa3fc9fc02d1d3032caa1b0ead9c8e2c5ed9c13cc9afe448c9_product_card_v2_mobile_slider_639.jpg",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
     "title": "Kena: Bridge of Spirits",
-    "genres": ["Action-adventure", "Action-RPG"],
+    "linkTitle": "Kena:Bridge-of-Spirits",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Action-RPG"
+    ],
     "rating": "M",
-    "description": "A third-person action-adventure game with a great story and a beautiful art style. It's a must-play for fans of the genre.",
+    "cardDescription": "A third-person action-adventure game with a great story and a beautiful art style. It's a must-play for fans of the genre.",
     "price": "39.99",
-    "image": "data:image/jpeg;base64,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"
+    "image": "data:image/jpeg;base64,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",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
     "title": "Solar Ash",
-    "genres": ["Metroidvania", "Action-adventure"],
+    "linkTitle": "Solar-Ash",
+    "genres": [
+      "Metroidvania",
+      "Action",
+      "Adventure"
+    ],
     "rating": "M",
-    "description": "A third-person action-adventure game with a great sense of speed and a beautiful art style. It's a must-play for fans of the genre.",
+    "cardDescription": "A third-person action-adventure game with a great sense of speed and a beautiful art style. It's a must-play for fans of the genre.",
     "price": "39.99",
-    "image": "https://i.ytimg.com/vi/6Ao1v2WUufc/maxresdefault.jpg"
+    "image": "https://i.ytimg.com/vi/6Ao1v2WUufc/maxresdefault.jpg",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
     "title": "Stardew Valley",
-    "genres": ["Simulation", "Role-playing game"],
+    "linkTitle": "Stardew-Valley",
+    "genres": [
+      "Simulation",
+      "RPG"
+    ],
     "rating": "E",
-    "description": "A farming simulator with a great sense of community and a lot of content. It's a must-play for fans of the genre.",
+    "cardDescription": "A farming simulator with a great sense of community and a lot of content. It's a must-play for fans of the genre.",
     "price": "14.99",
-    "image": "https://e0.pxfuel.com/wallpapers/262/797/desktop-wallpaper-stardew-valley-update-out-now-version-1-4-3.jpg"
+    "image": "https://e0.pxfuel.com/wallpapers/262/797/desktop-wallpaper-stardew-valley-update-out-now-version-1-4-3.jpg",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
     "title": "Cuphead",
-    "genres": ["Run and gun", "Metroidvania"],
+    "linkTitle": "Cuphead",
+    "genres": [
+      "Run and gun",
+      "Metroidvania"
+    ],
     "rating": "E",
-    "description": "A run-and-gun game with a unique art style and challenging gameplay. It's a must-play for fans of the genre.",
+    "cardDescription": "A run-and-gun game with a unique art style and challenging gameplay. It's a must-play for fans of the genre.",
     "price": "29.99",
-    "image": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000016330/d94d2186ef03c930392253c83c84af0c73b7e57cd902a526b09b4155a25930fe"
+    "image": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000016330/d94d2186ef03c930392253c83c84af0c73b7e57cd902a526b09b4155a25930fe",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
     "title": "Slime Rancher",
-    "genres": ["Simulation", "Action-adventure"],
+    "linkTitle": "Slime-Rancher",
+    "genres": [
+      "Simulation",
+      "Action",
+      "Adventure"
+    ],
     "rating": "E",
-    "description": "A farming simulator with a unique twist: you're raising slimes! It's a lot of fun and has a great sense of humor.",
+    "cardDescription": "A farming simulator with a unique twist: you're raising slimes! It's a lot of fun and has a great sense of humor.",
     "price": "19.99",
-    "image": "https://cdn.akamai.steamstatic.com/steam/apps/433340/capsule_616x353.jpg?t=1651003375"
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/433340/capsule_616x353.jpg?t=1651003375",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
     "title": "My Friend Pedro",
-    "genres": ["Action-adventure", "Platformer"],
+    "linkTitle": "My-Friend-Pedro",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Platformer"
+    ],
     "rating": "T",
-    "description": "A stylish action game with a unique control scheme. It's a lot of fun and has a great sense of humor.",
+    "cardDescription": "A stylish action game with a unique control scheme. It's a lot of fun and has a great sense of humor.",
     "price": "19.99",
-    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/557340/capsule_616x353.jpg?t=1686262019"
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/557340/capsule_616x353.jpg?t=1686262019",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
     "title": "Baba Is You",
-    "genres": ["Puzzle", "Word game"],
+    "linkTitle": "Baba-Is-You",
+    "genres": [
+      "Puzzle",
+      "Word game"
+    ],
     "rating": "E",
-    "description": "A puzzle game where you can change the rules of the game by rearranging the words. It's a lot of fun and very challenging.",
+    "cardDescription": "A puzzle game where you can change the rules of the game by rearranging the words. It's a lot of fun and very challenging.",
     "price": "14.99",
-    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/736260/capsule_616x353.jpg?t=1656225237"
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/736260/capsule_616x353.jpg?t=1656225237",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
     "title": "Pikuniku",
-    "genres": ["Adventure", "Puzzle"],
+    "linkTitle": "Pikuniku",
+    "genres": [
+      "Adventure",
+      "Puzzle"
+    ],
     "rating": "E",
-    "description": "A puzzle-platformer with a cute art style and a lot of humor. It's a lot of fun and perfect for all ages.",
+    "cardDescription": "A puzzle-platformer with a cute art style and a lot of humor. It's a lot of fun and perfect for all ages.",
     "price": "9.99",
-    "image": "https://cdn1.epicgames.com/c50f4a5c796e4abdbf8025cfbf5cff21/offer/wide-2560x1440-5c9c09d4625543a5c9ad8315fbcd08ca.jpg"
+    "image": "https://cdn1.epicgames.com/c50f4a5c796e4abdbf8025cfbf5cff21/offer/wide-2560x1440-5c9c09d4625543a5c9ad8315fbcd08ca.jpg",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
     "title": "The Gardens Between",
-    "genres": ["Puzzle", "Adventure"],
+    "linkTitle": "The-Gardens-Between",
+    "genres": [
+      "Puzzle",
+      "Adventure"
+    ],
     "rating": "E",
-    "description": "A puzzle game where you travel through time to solve puzzles. It's a beautiful and emotional game.",
+    "cardDescription": "A puzzle game where you travel through time to solve puzzles. It's a beautiful and emotional game.",
     "price": "14.99",
-    "image": "https://indieranger.com/wp-content/uploads/2019/03/gt-thegardensbetween.jpg"
+    "image": "https://indieranger.com/wp-content/uploads/2019/03/gt-thegardensbetween.jpg",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
     "title": "To The Moon",
-    "genres": ["Adventure", "Visual novel"],
+    "linkTitle": "To-The-Moon",
+    "genres": [
+      "Adventure",
+      "Visual novel"
+    ],
     "rating": "E",
-    "description": "A story-driven adventure game about two doctors who help a dying man fulfill his last wishes. It's a beautiful and emotional game.",
+    "cardDescription": "A story-driven adventure game about two doctors who help a dying man fulfill his last wishes. It's a beautiful and emotional game.",
     "price": "9.99",
-    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/206440/capsule_616x353.jpg?t=1681747901"
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/206440/capsule_616x353.jpg?t=1681747901",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
     "title": "Minecraft",
-    "genres": ["Sandbox", "Open world"],
+    "linkTitle": "Minecraft",
+    "genres": [
+      "Sandbox",
+      "Open world"
+    ],
     "rating": "E10+",
-    "description": "A sandbox game where you can build anything you can imagine. It's a lot of fun and perfect for all ages.",
+    "cardDescription": "A sandbox game where you can build anything you can imagine. It's a lot of fun and perfect for all ages.",
     "price": "26.95",
-    "image": "https://i.stack.imgur.com/dqVlX.png"
+    "image": "https://i.stack.imgur.com/dqVlX.png",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
     "title": "Rocket League",
-    "genres": ["Sports", "Vehicular combat"],
+    "linkTitle": "Rocket-League",
+    "genres": [
+      "Sports",
+      "Driving"
+    ],
     "rating": "E10+",
-    "description": "A vehicular soccer game where you control cars to score goals. It's a lot of fun and perfect for all ages.",
+    "cardDescription": "A vehicular soccer game where you control cars to score goals. It's a lot of fun and perfect for all ages.",
     "price": "19.99",
-    "image": "https://www.operationsports.com/wp-content/uploads/2021/07/Rocket-League%C2%AE_20210716092816-scaled.jpg?resize=1000%2C600"
+    "image": "https://www.operationsports.com/wp-content/uploads/2021/07/Rocket-League%C2%AE_20210716092816-scaled.jpg?resize=1000%2C600",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
     "title": "Splatoon 2",
-    "genres": ["Third-person shooter", "Third-person arena combat"],
+    "linkTitle": "Splatoon-2",
+    "genres": [
+      "Third-person shooter",
+      "Third-person arena combat"
+    ],
     "rating": "E10+",
-    "description": "A third-person shooter where you control squids to shoot ink at each other. It's a lot of fun and perfect for all ages.",
+    "cardDescription": "A third-person shooter where you control squids to shoot ink at each other. It's a lot of fun and perfect for all ages.",
     "price": "19.99",
-    "image": "https://i.etsystatic.com/10064703/r/il/57c0c0/1168099635/il_1080xN.1168099635_k270.jpg"
+    "image": "https://i.etsystatic.com/10064703/r/il/57c0c0/1168099635/il_1080xN.1168099635_k270.jpg",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
     "title": "Overcooked!",
-    "genres": ["Co-operative cooking", "Party game"],
+    "linkTitle": "Overcooked!",
+    "genres": [
+      "Co-operative cooking",
+      "Party game"
+    ],
     "rating": "E10+",
-    "description": "A cooking simulator where you have to work together with your friends to cook food. It's a lot of fun and perfect for all ages.",
+    "cardDescription": "A cooking simulator where you have to work together with your friends to cook food. It's a lot of fun and perfect for all ages.",
     "price": "14.99",
-    "image": "https://cdn.akamai.steamstatic.com/steam/apps/448510/capsule_616x353.jpg?t=1668604484"
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/448510/capsule_616x353.jpg?t=1668604484",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
     "title": "It Takes Two",
-    "genres": ["Co-operative", "Platformer"],
+    "linkTitle": "It-Takes-Two",
+    "genres": [
+      "Co-operative",
+      "Platformer"
+    ],
     "rating": "E10+",
-    "description": "A co-op adventure game where you play as two parents who have been turned into dolls. You have to work together to solve puzzles and defeat enemies.",
+    "cardDescription": "A co-op adventure game where you play as two parents who have been turned into dolls. You have to work together to solve puzzles and defeat enemies.",
     "price": "29.99",
-    "image": "https://variety.com/wp-content/uploads/2022/01/It-Takes-Two-e1643647274115.jpg"
+    "image": "https://variety.com/wp-content/uploads/2022/01/It-Takes-Two-e1643647274115.jpg",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
     "title": "Bugsnax",
-    "genres": ["Adventure", "Collectathon"],
+    "linkTitle": "Bugsnax",
+    "genres": [
+      "Adventure",
+      "Collectathon"
+    ],
     "rating": "E10+",
-    "description": "A collectathon adventure game where you collect food creatures called Bugsnax. The game is full of humor and charm.",
+    "cardDescription": "A collectathon adventure game where you collect food creatures called Bugsnax. The game is full of humor and charm.",
     "price": "19.99",
-    "image": "https://i0.wp.com/www.lifeisxbox.eu/wp-content/uploads/2022/05/bugsnax.jpg?fit=1600%2C800&ssl=1"
+    "image": "https://i0.wp.com/www.lifeisxbox.eu/wp-content/uploads/2022/05/bugsnax.jpg?fit=1600%2C800&ssl=1",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
     "title": "Astro's Playroom",
-    "genres": ["Platformer", "3D platformer"],
+    "linkTitle": "Astros-Playroom",
+    "genres": [
+      "Platformer",
+      "3D platformer"
+    ],
     "rating": "E10+",
-    "description": "A 3D platformer that comes pre-installed on all PlayStation 5 consoles. It's a lot of fun and shows off the power of the PS5.",
+    "cardDescription": "A 3D platformer that comes pre-installed on all PlayStation 5 consoles. It's a lot of fun and shows off the power of the PS5.",
     "price": "Free",
-    "image": "https://www.codecmoments.com/wp-content/uploads/2020/12/Astros-Playroom-Feature.jpg"
+    "image": "https://www.codecmoments.com/wp-content/uploads/2020/12/Astros-Playroom-Feature.jpg",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
     "title": "Little Nightmares 2",
-    "genres": ["Platformer", "Horror"],
+    "linkTitle": "Little-Nightmares-2",
+    "genres": [
+      "Platformer",
+      "Horror"
+    ],
     "rating": "E10+",
-    "description": "A puzzle-platformer where you play as a young girl who is trying to escape a dark and twisted world. It's a beautiful and atmospheric game.",
+    "cardDescription": "A puzzle-platformer where you play as a young girl who is trying to escape a dark and twisted world. It's a beautiful and atmospheric game.",
     "price": "19.99",
-    "image": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/en_US/games/switch/l/little-nightmares-ii-switch/hero"
+    "image": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/en_US/games/switch/l/little-nightmares-ii-switch/hero",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   },
   {
     "title": "New Super Lucky's Tale",
-    "genres": ["Platformer"],
+    "linkTitle": "New-Super-Luckys-Tale",
+    "genres": [
+      "Platformer"
+    ],
     "rating": "E10+",
-    "description": "A 3D platformer in the vein of Super Mario 64. It's a lot of fun and perfect for all ages.",
+    "cardDescription": "A 3D platformer in the vein of Super Mario 64. It's a lot of fun and perfect for all ages.",
     "price": "19.99",
-    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1038300/capsule_616x353.jpg?t=1667224805"
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1038300/capsule_616x353.jpg?t=1667224805",
+    "trailer": "",
+    "PS": "",
+    "XB": "",
+    "Switch": "",
+    "PC": ""
   }
 ]
