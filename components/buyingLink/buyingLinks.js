@@ -9,7 +9,7 @@ export default function Buyinglink({ game }) {
     <>
     
         {(game.PS)
-      ?  <a className="hover:underline" href={game.PS}><h1 className="px-8 hover:bg-slate-600 py-4 my-5 mx-3 bg-slate-700 rounded">Download on Playstaion Here </h1></a>
+      ?  <a className="hover:underline" href={game.PS}><h1 className="px-8 hover:bg-slate-600 py-4 my-5 mx-3 bg-slate-700 rounded">Download on Playstation Here </h1></a>
       : <h1 className="px-8 hover:bg-slate-600 py-4 my-5 mx-3 bg-slate-700 rounded"> Game is not avalible on Platform</h1>
         }
 
