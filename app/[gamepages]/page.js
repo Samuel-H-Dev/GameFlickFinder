@@ -2,11 +2,11 @@ import PageLayout from "@/components/PageLayout/pageLayout"
 import Buyinglink from "@/components/buyingLink/buyingLinks";
 import gameInfo from "@/data/GameLibrary.json"
 
-// export function generateStaticParams() {
-// return gameInfo.map(games => ({
-//    gamepages: games.linkTitle
-// }))
-// }
+export function generateStaticParams() {
+return gameInfo.map(games => ({
+   gamepages: games.linkTitle
+}))
+}
 
 export default function Pages({params: {gamepages}}){
 
