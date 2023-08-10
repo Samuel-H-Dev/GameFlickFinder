@@ -1,0 +1,943 @@
+[debug] [2023-08-05T17:57:08.361Z] ----------------------------------------------------------------------
+[debug] [2023-08-05T17:57:08.362Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2023-08-05T17:57:08.362Z] CLI Version:   12.4.7
+[debug] [2023-08-05T17:57:08.362Z] Platform:      darwin
+[debug] [2023-08-05T17:57:08.362Z] Node Version:  v18.16.0
+[debug] [2023-08-05T17:57:08.363Z] Time:          Sat Aug 05 2023 13:57:08 GMT-0400 (Eastern Daylight Time)
+[debug] [2023-08-05T17:57:08.363Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-05T17:57:08.403Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-08-05T17:57:08.404Z] > authorizing via signed-in user (samuel.holmes.104@gmail.com)
+[debug] [2023-08-05T17:57:08.404Z] [iam] checking project game-forums-sh for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-08-05T17:57:08.405Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/game-forums-sh:testIamPermissions [none]
+[debug] [2023-08-05T17:57:08.405Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/game-forums-sh:testIamPermissions x-goog-quota-user=projects/game-forums-sh
+[debug] [2023-08-05T17:57:08.405Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/game-forums-sh:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-08-05T17:57:08.613Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/game-forums-sh:testIamPermissions 200
+[debug] [2023-08-05T17:57:08.614Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/game-forums-sh:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-08-05T17:57:08.614Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/game-forums-sh/serviceAccounts/game-forums-sh@appspot.gserviceaccount.com:testIamPermissions [none]
+[debug] [2023-08-05T17:57:08.614Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/game-forums-sh/serviceAccounts/game-forums-sh@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2023-08-05T17:57:08.822Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/game-forums-sh/serviceAccounts/game-forums-sh@appspot.gserviceaccount.com:testIamPermissions 200
+[debug] [2023-08-05T17:57:08.823Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/game-forums-sh/serviceAccounts/game-forums-sh@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2023-08-05T17:57:08.824Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/game-forums-sh [none]
+[debug] [2023-08-05T17:57:09.228Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/game-forums-sh 200
+[debug] [2023-08-05T17:57:09.228Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/game-forums-sh {"projectId":"game-forums-sh","projectNumber":"960495738264","displayName":"game-forums-sh","name":"projects/game-forums-sh","resources":{"hostingSite":"game-forums-sh"},"state":"ACTIVE","etag":"1_d8613803-f1a5-4488-9977-3e5c28938d07"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[info] - info Creating an optimized production build...
+
+[info] - info Compiled successfully
+
+[info] - info Linting and checking validity of types...
+
+[info] - info Collecting page data...
+
+[info] - info Generating static pages (0/4)
+
+[info] - info Generating static pages (1/4)
+
+[info] - info Generating static pages (2/4)
+
+[info] - info Generating static pages (3/4)
+
+[info] - info Generating static pages (4/4)
+
+[info] - info Finalizing page optimization...
+
+[info] 
+
+[info] Route (app)                                Size     First Load JS
+┌ ○ /                                      6.03 kB        83.5 kB
+├ λ /[gamepages]                           137 B          77.6 kB
+└ ○ /favicon.ico                           0 B                0 B
++ First Load JS shared by all              77.5 kB
+  ├ chunks/698-1321e6d13d35448d.js         25.1 kB
+  ├ chunks/bce60fc1-8c4748991edb1ec4.js    50.5 kB
+  ├ chunks/main-app-efae49e7e4d97f36.js    213 B
+  └ chunks/webpack-9f9495edd8950d3e.js     1.64 kB
+
+Route (pages)                              Size     First Load JS
+─ ○ /404                                   181 B          75.4 kB
++ First Load JS shared by all              75.2 kB
+  ├ chunks/framework-8883d1e9be70c3da.js   45 kB
+  ├ chunks/main-403426eb860d23e4.js        28.4 kB
+  ├ chunks/pages/_app-b75b9482ff6ea491.js  195 B
+  └ chunks/webpack-9f9495edd8950d3e.js     1.64 kB
+
+λ  (Server)  server-side renders at runtime (uses getInitialProps or getServerSideProps)
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+
+
+[info] Building a Cloud Function to run this application. This is needed due to:
+[info]  • non-static component /[gamepages]/page
+[info] 
+[debug] [2023-08-05T17:57:22.821Z] [web frameworks] effective firebase.json:  {
+  "hosting": [
+    {
+      "source": ".",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "frameworksBackend": {
+        "region": "us-central1"
+      },
+      "site": "game-forums-sh",
+      "rewrites": [
+        {
+          "source": "**",
+          "function": {
+            "functionId": "ssrgameforumssh",
+            "region": "us-central1",
+            "pinTag": true
+          }
+        }
+      ],
+      "redirects": [],
+      "headers": [
+        {
+          "source": "/favicon.ico",
+          "headers": [
+            {
+              "key": "cache-control",
+              "value": "public, max-age=0, must-revalidate"
+            },
+            {
+              "key": "content-type",
+              "value": "image/x-icon"
+            },
+            {
+              "key": "x-next-cache-tags",
+              "value": "/favicon.ico/route"
+            }
+          ]
+        }
+      ],
+      "cleanUrls": true,
+      "trailingSlash": false,
+      "public": ".firebase/game-forums-sh/hosting",
+      "webFramework": "next_ssr"
+    }
+  ],
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log"
+      ]
+    },
+    {
+      "source": ".firebase/game-forums-sh/functions",
+      "codebase": "firebase-frameworks-game-forums-sh"
+    }
+  ]
+}
+[info] 
+[info] === Deploying to 'game-forums-sh'...
+[info] 
+[info] i  deploying functions, hosting 
+[debug] [2023-08-05T17:57:22.822Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/game-forums-sh [none]
+[debug] [2023-08-05T17:57:23.087Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/game-forums-sh 200
+[debug] [2023-08-05T17:57:23.087Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/game-forums-sh {"projectId":"game-forums-sh","projectNumber":"960495738264","displayName":"game-forums-sh","name":"projects/game-forums-sh","resources":{"hostingSite":"game-forums-sh"},"state":"ACTIVE","etag":"1_d8613803-f1a5-4488-9977-3e5c28938d07"}
+[info] i  functions: preparing codebase default for deployment 
+[info] i  functions: preparing codebase firebase-frameworks-game-forums-sh for deployment 
+[info] i  functions: ensuring required API cloudfunctions.googleapis.com is enabled... 
+[info] i  functions: ensuring required API cloudbuild.googleapis.com is enabled... 
+[info] i  artifactregistry: ensuring required API artifactregistry.googleapis.com is enabled... 
+[debug] [2023-08-05T17:57:23.090Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/cloudfunctions.googleapis.com [none]
+[debug] [2023-08-05T17:57:23.090Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/game-forums-sh
+[debug] [2023-08-05T17:57:23.092Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/runtimeconfig.googleapis.com [none]
+[debug] [2023-08-05T17:57:23.092Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/runtimeconfig.googleapis.com x-goog-quota-user=projects/game-forums-sh
+[debug] [2023-08-05T17:57:23.093Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/cloudbuild.googleapis.com [none]
+[debug] [2023-08-05T17:57:23.093Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/cloudbuild.googleapis.com x-goog-quota-user=projects/game-forums-sh
+[debug] [2023-08-05T17:57:23.094Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/artifactregistry.googleapis.com [none]
+[debug] [2023-08-05T17:57:23.094Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/artifactregistry.googleapis.com x-goog-quota-user=projects/game-forums-sh
+[debug] [2023-08-05T17:57:23.463Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/runtimeconfig.googleapis.com 200
+[debug] [2023-08-05T17:57:23.463Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/runtimeconfig.googleapis.com [omitted]
+[debug] [2023-08-05T17:57:23.476Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/artifactregistry.googleapis.com 200
+[debug] [2023-08-05T17:57:23.477Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/artifactregistry.googleapis.com [omitted]
+[info] ✔  artifactregistry: required API artifactregistry.googleapis.com is enabled 
+[debug] [2023-08-05T17:57:23.533Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/cloudfunctions.googleapis.com 200
+[debug] [2023-08-05T17:57:23.533Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/cloudfunctions.googleapis.com [omitted]
+[info] ✔  functions: required API cloudfunctions.googleapis.com is enabled 
+[debug] [2023-08-05T17:57:23.540Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/cloudbuild.googleapis.com 200
+[debug] [2023-08-05T17:57:23.540Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/cloudbuild.googleapis.com [omitted]
+[info] ✔  functions: required API cloudbuild.googleapis.com is enabled 
+[debug] [2023-08-05T17:57:23.541Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/game-forums-sh/adminSdkConfig [none]
+[debug] [2023-08-05T17:57:23.728Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/game-forums-sh/adminSdkConfig 200
+[debug] [2023-08-05T17:57:23.729Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/game-forums-sh/adminSdkConfig {"projectId":"game-forums-sh","storageBucket":"game-forums-sh.appspot.com"}
+[debug] [2023-08-05T17:57:23.729Z] >>> [apiv2][query] GET https://runtimeconfig.googleapis.com/v1beta1/projects/game-forums-sh/configs [none]
+[debug] [2023-08-05T17:57:23.946Z] <<< [apiv2][status] GET https://runtimeconfig.googleapis.com/v1beta1/projects/game-forums-sh/configs 200
+[debug] [2023-08-05T17:57:23.946Z] <<< [apiv2][body] GET https://runtimeconfig.googleapis.com/v1beta1/projects/game-forums-sh/configs {}
+[debug] [2023-08-05T17:57:23.949Z] Validating nodejs source
+[debug] [2023-08-05T17:57:24.340Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-08-05T17:57:24.340Z] Building nodejs source
+[info] i  functions: Loading and analyzing source code for codebase default to determine what to deploy 
+[debug] [2023-08-05T17:57:24.340Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-08-05T17:57:24.345Z] Found firebase-functions binary at '/Users/samuelholmez/Personal-Code/react-projects/basic-game-info-page/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8190
+
+[debug] [2023-08-05T17:57:24.599Z] Got response from /__/functions.yaml {"endpoints":{},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] shutdown requested via /__/quitquitquit
+
+[debug] [2023-08-05T17:57:24.608Z] Validating nodejs source
+[debug] [2023-08-05T17:57:24.967Z] > [functions] package.json contents: {
+  "name": "basic-game-info-page",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "autoprefixer": "10.4.14",
+    "next": "13.4.9",
+    "postcss": "8.4.25",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwindcss": "3.3.2",
+    "firebase-frameworks": "^0.10.4",
+    "firebase-functions": "^4.3.0",
+    "firebase-admin": "^11.0.1"
+  },
+  "main": "server.js",
+  "engines": {
+    "node": "18"
+  }
+}
+[debug] [2023-08-05T17:57:24.967Z] Building nodejs source
+[info] i  functions: Loading and analyzing source code for codebase firebase-frameworks-game-forums-sh to determine what to deploy 
+[debug] [2023-08-05T17:57:24.967Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-08-05T17:57:24.968Z] Found firebase-functions binary at '/Users/samuelholmez/Personal-Code/react-projects/basic-game-info-page/.firebase/game-forums-sh/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8709
+
+[debug] [2023-08-05T17:57:25.142Z] Got response from /__/functions.yaml {"endpoints":{"ssrgameforumssh":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","region":["us-central1"],"labels":{},"httpsTrigger":{},"entryPoint":"ssrgameforumssh"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] shutdown requested via /__/quitquitquit
+
+[info] i  functions: Loaded environment variables from .env. 
+[info] i  functions: preparing .firebase/game-forums-sh/functions directory for uploading... 
+[info] i  functions: packaged /Users/samuelholmez/Personal-Code/react-projects/basic-game-info-page/.firebase/game-forums-sh/functions (65.87 MB) for uploading 
+[debug] [2023-08-05T17:57:26.732Z] >>> [apiv2][query] GET https://cloudfunctions.googleapis.com/v1/projects/game-forums-sh/locations/-/functions [none]
+[debug] [2023-08-05T17:57:27.355Z] <<< [apiv2][status] GET https://cloudfunctions.googleapis.com/v1/projects/game-forums-sh/locations/-/functions 200
+[debug] [2023-08-05T17:57:27.356Z] <<< [apiv2][body] GET https://cloudfunctions.googleapis.com/v1/projects/game-forums-sh/locations/-/functions {}
+[debug] [2023-08-05T17:57:27.357Z] >>> [apiv2][query] GET https://cloudfunctions.googleapis.com/v2/projects/game-forums-sh/locations/-/functions filter=environment%3D%22GEN_2%22
+[debug] [2023-08-05T17:57:27.895Z] <<< [apiv2][status] GET https://cloudfunctions.googleapis.com/v2/projects/game-forums-sh/locations/-/functions 200
+[debug] [2023-08-05T17:57:27.895Z] <<< [apiv2][body] GET https://cloudfunctions.googleapis.com/v2/projects/game-forums-sh/locations/-/functions {}
+[info] i  functions: ensuring required API run.googleapis.com is enabled... 
+[info] i  functions: ensuring required API eventarc.googleapis.com is enabled... 
+[info] i  functions: ensuring required API pubsub.googleapis.com is enabled... 
+[info] i  functions: ensuring required API storage.googleapis.com is enabled... 
+[debug] [2023-08-05T17:57:27.899Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/run.googleapis.com [none]
+[debug] [2023-08-05T17:57:27.899Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/run.googleapis.com x-goog-quota-user=projects/game-forums-sh
+[debug] [2023-08-05T17:57:27.902Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/eventarc.googleapis.com [none]
+[debug] [2023-08-05T17:57:27.902Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/eventarc.googleapis.com x-goog-quota-user=projects/game-forums-sh
+[debug] [2023-08-05T17:57:27.904Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/pubsub.googleapis.com [none]
+[debug] [2023-08-05T17:57:27.904Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/pubsub.googleapis.com x-goog-quota-user=projects/game-forums-sh
+[debug] [2023-08-05T17:57:27.906Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/storage.googleapis.com [none]
+[debug] [2023-08-05T17:57:27.906Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/storage.googleapis.com x-goog-quota-user=projects/game-forums-sh
+[debug] [2023-08-05T17:57:28.217Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/eventarc.googleapis.com 200
+[debug] [2023-08-05T17:57:28.218Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/eventarc.googleapis.com [omitted]
+[info] ✔  functions: required API eventarc.googleapis.com is enabled 
+[debug] [2023-08-05T17:57:28.249Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/run.googleapis.com 200
+[debug] [2023-08-05T17:57:28.249Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/run.googleapis.com [omitted]
+[info] ✔  functions: required API run.googleapis.com is enabled 
+[debug] [2023-08-05T17:57:28.250Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/pubsub.googleapis.com 200
+[debug] [2023-08-05T17:57:28.250Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/pubsub.googleapis.com [omitted]
+[info] ✔  functions: required API pubsub.googleapis.com is enabled 
+[debug] [2023-08-05T17:57:28.286Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/storage.googleapis.com 200
+[debug] [2023-08-05T17:57:28.286Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/storage.googleapis.com [omitted]
+[info] ✔  functions: required API storage.googleapis.com is enabled 
+[info] i  functions: generating the service identity for pubsub.googleapis.com... 
+[info] i  functions: generating the service identity for eventarc.googleapis.com... 
+[debug] [2023-08-05T17:57:28.287Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1beta1/projects/960495738264/services/pubsub.googleapis.com:generateServiceIdentity [none]
+[debug] [2023-08-05T17:57:28.289Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1beta1/projects/960495738264/services/eventarc.googleapis.com:generateServiceIdentity [none]
+[debug] [2023-08-05T17:57:28.767Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1beta1/projects/960495738264/services/eventarc.googleapis.com:generateServiceIdentity 200
+[debug] [2023-08-05T17:57:28.767Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1beta1/projects/960495738264/services/eventarc.googleapis.com:generateServiceIdentity {"name":"operations/finished.DONE_OPERATION","done":true,"response":{"@type":"type.googleapis.com/google.api.serviceusage.v1beta1.ServiceIdentity","email":"service-960495738264@gcp-sa-eventarc.iam.gserviceaccount.com","uniqueId":"103644320349471016237"}}
+[debug] [2023-08-05T17:57:28.807Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1beta1/projects/960495738264/services/pubsub.googleapis.com:generateServiceIdentity 200
+[debug] [2023-08-05T17:57:28.807Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1beta1/projects/960495738264/services/pubsub.googleapis.com:generateServiceIdentity {"name":"operations/finished.DONE_OPERATION","done":true,"response":{"@type":"type.googleapis.com/google.api.serviceusage.v1beta1.ServiceIdentity","email":"service-960495738264@gcp-sa-pubsub.iam.gserviceaccount.com","uniqueId":"105983565779509499790"}}
+[debug] [2023-08-05T17:57:28.812Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/game-forums-sh [none]
+[debug] [2023-08-05T17:57:29.002Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/game-forums-sh 200
+[debug] [2023-08-05T17:57:29.002Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/game-forums-sh {"projectId":"game-forums-sh","projectNumber":"960495738264","displayName":"game-forums-sh","name":"projects/game-forums-sh","resources":{"hostingSite":"game-forums-sh"},"state":"ACTIVE","etag":"1_d8613803-f1a5-4488-9977-3e5c28938d07"}
+[debug] [2023-08-05T17:57:29.008Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/game-forums-sh/versions [none]
+[debug] [2023-08-05T17:57:29.008Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/game-forums-sh/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase","firebase-web-framework":"next_ssr"}}
+[debug] [2023-08-05T17:57:29.634Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/game-forums-sh/versions 200
+[debug] [2023-08-05T17:57:29.634Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/game-forums-sh/versions {"name":"projects/960495738264/sites/game-forums-sh/versions/52219cf9130bfa82","status":"CREATED","config":{},"labels":{"firebase-web-framework":"next_ssr","deployment-tool":"cli-firebase"}}
+[debug] [2023-08-05T17:57:29.635Z] [functions] found 1 new HTTP functions, testing setIamPolicy permission...
+[debug] [2023-08-05T17:57:29.636Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/game-forums-sh:testIamPermissions [none]
+[debug] [2023-08-05T17:57:29.636Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/game-forums-sh:testIamPermissions x-goog-quota-user=projects/game-forums-sh
+[debug] [2023-08-05T17:57:29.636Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/game-forums-sh:testIamPermissions {"permissions":["cloudfunctions.functions.setIamPolicy"]}
+[debug] [2023-08-05T17:57:29.788Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/game-forums-sh:testIamPermissions 200
+[debug] [2023-08-05T17:57:29.788Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/game-forums-sh:testIamPermissions {"permissions":["cloudfunctions.functions.setIamPolicy"]}
+[debug] [2023-08-05T17:57:29.788Z] [functions] found setIamPolicy permission, proceeding with deploy
+[debug] [2023-08-05T17:57:29.790Z] >>> [apiv2][query] POST https://cloudfunctions.googleapis.com/v2/projects/game-forums-sh/locations/us-central1/functions:generateUploadUrl [none]
+[debug] [2023-08-05T17:57:30.177Z] <<< [apiv2][status] POST https://cloudfunctions.googleapis.com/v2/projects/game-forums-sh/locations/us-central1/functions:generateUploadUrl 200
+[debug] [2023-08-05T17:57:30.178Z] <<< [apiv2][body] POST https://cloudfunctions.googleapis.com/v2/projects/game-forums-sh/locations/us-central1/functions:generateUploadUrl {"uploadUrl":"https://storage.googleapis.com/gcf-v2-uploads-960495738264-us-central1/9ce036c8-bae7-43db-8fe3-e23e303369e4.zip?GoogleAccessId=service-960495738264@gcf-admin-robot.iam.gserviceaccount.com&Expires=1691260050&Signature=F26wkSADuZfLVmOfn2nrpY1Dc7sssu9caYe7fIHlWNaYZaoIMKnO503uxm8dyHwsHrgBIDQPVsvQFy92x1K8s9RPSDey1GZascwu%2BLBG4dgHlmelDPl25s%2BJpzoW8NLsEDOJ40pdvySAcfvw4jFb1ExxH4dGQpf8WwBfDwnLojwg167LzRlDT2O2HINGEDVNVCNXf%2Fq6TK8HF7mbDHXD7jl%2FwuHR%2FMQ%2BbpXhRKQisMRaQY%2Be9THCyRbXhZ5LYCPwG7yPyhxdmmjtFa4rwjZm3d6bNElwQ5co06mt7TMaR9Qn%2B2%2F9NrHMiJlAmfZ0by2MoB2VEE9qJhENth8VTK482A%3D%3D","storageSource":{"bucket":"gcf-v2-uploads-960495738264-us-central1","object":"9ce036c8-bae7-43db-8fe3-e23e303369e4.zip"}}
+[debug] [2023-08-05T17:57:30.179Z] >>> [apiv2][query] PUT https://storage.googleapis.com/gcf-v2-uploads-960495738264-us-central1/9ce036c8-bae7-43db-8fe3-e23e303369e4.zip GoogleAccessId=service-960495738264%40gcf-admin-robot.iam.gserviceaccount.com&Expires=1691260050&Signature=F26wkSADuZfLVmOfn2nrpY1Dc7sssu9caYe7fIHlWNaYZaoIMKnO503uxm8dyHwsHrgBIDQPVsvQFy92x1K8s9RPSDey1GZascwu%2BLBG4dgHlmelDPl25s%2BJpzoW8NLsEDOJ40pdvySAcfvw4jFb1ExxH4dGQpf8WwBfDwnLojwg167LzRlDT2O2HINGEDVNVCNXf%2Fq6TK8HF7mbDHXD7jl%2FwuHR%2FMQ%2BbpXhRKQisMRaQY%2Be9THCyRbXhZ5LYCPwG7yPyhxdmmjtFa4rwjZm3d6bNElwQ5co06mt7TMaR9Qn%2B2%2F9NrHMiJlAmfZ0by2MoB2VEE9qJhENth8VTK482A%3D%3D
+[debug] [2023-08-05T17:57:30.180Z] >>> [apiv2][body] PUT https://storage.googleapis.com/gcf-v2-uploads-960495738264-us-central1/9ce036c8-bae7-43db-8fe3-e23e303369e4.zip [stream]
+[debug] [2023-08-05T17:57:36.815Z] <<< [apiv2][status] PUT https://storage.googleapis.com/gcf-v2-uploads-960495738264-us-central1/9ce036c8-bae7-43db-8fe3-e23e303369e4.zip 200
+[debug] [2023-08-05T17:57:36.815Z] <<< [apiv2][body] PUT https://storage.googleapis.com/gcf-v2-uploads-960495738264-us-central1/9ce036c8-bae7-43db-8fe3-e23e303369e4.zip [omitted]
+[info] ✔  functions: .firebase/game-forums-sh/functions folder uploaded successfully 
+[info] i  hosting[game-forums-sh]: beginning deploy... 
+[info] i  hosting[game-forums-sh]: found 30 files in .firebase/game-forums-sh/hosting 
+[debug] [2023-08-05T17:57:36.832Z] [hosting] uploading with 200 concurrency
+[debug] [2023-08-05T17:57:36.889Z] [hosting] hash cache [LmZpcmViYXNlL2dhbWUtZm9ydW1zLXNoL2hvc3Rpbmc] stored for 30 files
+[debug] [2023-08-05T17:57:36.889Z] [hosting][hash queue][FINAL] {"max":48,"min":10,"avg":15.766666666666667,"active":0,"complete":30,"success":30,"errored":0,"retried":0,"total":30,"elapsed":53}
+[debug] [2023-08-05T17:57:36.889Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/960495738264/sites/game-forums-sh/versions/52219cf9130bfa82:populateFiles [none]
+[debug] [2023-08-05T17:57:36.889Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/960495738264/sites/game-forums-sh/versions/52219cf9130bfa82:populateFiles {"files":{"/_next/static/Zu3CB6lRLRE_vlo2HqlnR/_ssgManifest.js":"02dbc1aeab6ef0a6ff2ff9a1643158cf9bb38929945eaa343a3627dee9ba6778","/_next/static/Zu3CB6lRLRE_vlo2HqlnR/_buildManifest.js":"22c37d96938987201b8bcb06e70125813225d87a02198ce97dc50320225b7857","/404.html":"d399ba21f3113edf472296f1bace04143f0370bd57706c5879ed83c120d0475c","/_next/static/chunks/95-fe2423899271355b.js":"4af019973ad561d66bb8b9273eb02ef66ed80ed804e2f0250f424fe11bfbae03","/favicon.ico":"f5c80489fbbfe993b3ce2a397a0dfaf02a45d782be42ad5d712af689fcb4f16c","/index.html":"592f4df831eb778985058fc17c68c62526ee927b6e929a9a05cf6338c0fb8c8b","/_next/static/chunks/webpack-9f9495edd8950d3e.js":"428bf311ee365cead0e95426195ad8a3f0ff751eaf9926e9d8b59e6a62d56bba","/_next/static/chunks/app/layout-9d1466041695fb69.js":"3f4d567079360a38a6e562de0e469f89f6d7fafe7ccfc95b491e383fc6fbb5b2","/_next/static/chunks/app/page-0415337e6ca8eff5.js":"33d82eeb9a35c0aa85df50cf1fccce06add66c55b5e4351062857010336c28d5","/_next/static/chunks/app/[gamepages]/page-ad4e06d8d75922f9.js":"17a079b8e350d84216dd93cea559c9921ca3c187b73dabf95dfa1b9cd9d5f73b","/_next/static/chunks/app/[gamepages]/error-bcb25f92169fd805.js":"59f3ce28e9d00ee62852a9918d713f94ff810b7de6e6fbefb0850d3275d37a05","/_next/static/chunks/pages/_app-b75b9482ff6ea491.js":"89097a1b5ed8c16c36dae8df4b4d073bb9146cba9e75aa26a880e227190ee7f2","/_next/static/chunks/pages/_error-7fafba9435aeb6bc.js":"cabf485cf90d3b4574bb81ce71d1da556ed747990a616be5247f406fa4ead6fb","/_next/static/css/e9112e7bec24096b.css":"9317d7b90c5b067f6c41b8285c4a2d5815397dc620a7ac56fe01315ab63d5341","/_next/static/media/ae9ae6716d4f8bf8-s.woff2":"43ee6ef2612f5b1a6a4da26f6794a153e3a114ca63e5514b42fe971a591c14f1","/_next/static/media/b1db3e28af9ef94a-s.woff2":"341f8eeb10eece9821ba627cdf2e4b8ce5f845688ba7319e8e83b8a511ab6f72","/_next/static/chunks/main-app-efae49e7e4d97f36.js":"669934d0b53a5dee082fc8ea606b4c58afe85a26a3c25ac45c4ca25e369d6596","/_next/static/media/b967158bc7d7a9fb-s.woff2":"cd209411a73ed645b4188157c5b0ad5f2bd7fd7e2eb8e39afe2a9f03ebd335c4","/_next/static/media/c0f5ec5bbf5913b7-s.woff2":"80b15feaba5060ab0f867e9a7512eb95ec390bc76fa8922c943dd3797fa2eb78","/_next/static/media/d1d9458b69004127-s.woff2":"23b66f06ae0de7c955b12751edf341301743b7ef23171ea504ba992767a42394","/_next/static/media/2aaf0723e720e8b9-s.p.woff2":"9125e2daf16cf67750042d05cadbc2d52f21d5641d8826d240adfd57f7184d9f","/_next/static/chunks/main-403426eb860d23e4.js":"ea8e1a7ce91f12c20fccb56229b18d9d0ea203d6c683df4798690cf73b1bdd41","/_next/static/chunks/698-1321e6d13d35448d.js":"448ba897d9a796c5e935ff26bc226cae118e96f30028defa90b3a0ea102e8597","/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js":"76f0b40a22fd1d40b34e6072089550d8573c7207c510dc41038d823c7fa3c369","/_next/static/media/9c4f34569c9b36ca-s.woff2":"ce8049481d541c70f4db24fcf42634377ef9124d3f9fd086c344e1aff3f77a68","/_next/static/chunks/framework-8883d1e9be70c3da.js":"740a9917902c50b922f543c2c4f39e60359ba656dfa9cb709d20c8ad7c43fd24","/_next/static/chunks/bce60fc1-8c4748991edb1ec4.js":"c9d8e09518a837db763e0194a1a1349ad0996e181f083a20046c0bf93a4356f9","/images/GithubLogo.png":"749aefc235197296e4f76f5754b225b6a42fc92d7d6a9d3c05469387abc925da","/images/LinkedinLogo.png":"66866c80fb20ba24b70f58b63ceb504b1a60646380a382f3b6339c997e0cae44","/images/logo.png":"817758c6b13873da747398671fa010f61a24e336372be00d9738872c09eaf86f"}}
+[debug] [2023-08-05T17:57:37.450Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/960495738264/sites/game-forums-sh/versions/52219cf9130bfa82:populateFiles 200
+[debug] [2023-08-05T17:57:37.451Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/960495738264/sites/game-forums-sh/versions/52219cf9130bfa82:populateFiles {"uploadRequiredHashes":["d399ba21f3113edf472296f1bace04143f0370bd57706c5879ed83c120d0475c","592f4df831eb778985058fc17c68c62526ee927b6e929a9a05cf6338c0fb8c8b"],"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/52219cf9130bfa82/files"}
+[debug] [2023-08-05T17:57:37.452Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/52219cf9130bfa82/files/d399ba21f3113edf472296f1bace04143f0370bd57706c5879ed83c120d0475c [none]
+[debug] [2023-08-05T17:57:37.452Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/52219cf9130bfa82/files/d399ba21f3113edf472296f1bace04143f0370bd57706c5879ed83c120d0475c [stream]
+[debug] [2023-08-05T17:57:37.454Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/52219cf9130bfa82/files/592f4df831eb778985058fc17c68c62526ee927b6e929a9a05cf6338c0fb8c8b [none]
+[debug] [2023-08-05T17:57:37.454Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/52219cf9130bfa82/files/592f4df831eb778985058fc17c68c62526ee927b6e929a9a05cf6338c0fb8c8b [stream]
+[debug] [2023-08-05T17:57:37.455Z] [hosting][populate queue][FINAL] {"max":565,"min":565,"avg":565,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":568}
+[debug] [2023-08-05T17:57:37.456Z] [hosting] uploads queued: 2
+[debug] [2023-08-05T17:57:38.051Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/52219cf9130bfa82/files/592f4df831eb778985058fc17c68c62526ee927b6e929a9a05cf6338c0fb8c8b 200
+[debug] [2023-08-05T17:57:38.051Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/52219cf9130bfa82/files/592f4df831eb778985058fc17c68c62526ee927b6e929a9a05cf6338c0fb8c8b [stream]
+[debug] [2023-08-05T17:57:38.085Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/52219cf9130bfa82/files/d399ba21f3113edf472296f1bace04143f0370bd57706c5879ed83c120d0475c 200
+[debug] [2023-08-05T17:57:38.085Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/52219cf9130bfa82/files/d399ba21f3113edf472296f1bace04143f0370bd57706c5879ed83c120d0475c [stream]
+[debug] [2023-08-05T17:57:38.085Z] [hosting][upload queue][FINAL] {"max":634,"min":599,"avg":616.5,"active":0,"complete":2,"success":2,"errored":0,"retried":0,"total":2,"elapsed":634}
+[info] ✔  hosting[game-forums-sh]: file upload complete 
+[debug] [2023-08-05T17:57:38.086Z] [hosting] deploy completed after 1266ms
+[info] i  functions: creating Node.js 18 (2nd Gen) function firebase-frameworks-game-forums-sh:ssrgameforumssh(us-central1)... 
+[debug] [2023-08-05T17:57:38.089Z] >>> [apiv2][query] POST https://cloudfunctions.googleapis.com/v2/projects/game-forums-sh/locations/us-central1/functions functionId=ssrgameforumssh
+[debug] [2023-08-05T17:57:38.089Z] >>> [apiv2][body] POST https://cloudfunctions.googleapis.com/v2/projects/game-forums-sh/locations/us-central1/functions {"name":"projects/game-forums-sh/locations/us-central1/functions/ssrgameforumssh","buildConfig":{"runtime":"nodejs18","entryPoint":"ssrgameforumssh","source":{"storageSource":{"bucket":"gcf-v2-uploads-960495738264-us-central1","object":"9ce036c8-bae7-43db-8fe3-e23e303369e4.zip"}},"environmentVariables":{"GOOGLE_NODE_RUN_SCRIPTS":""}},"serviceConfig":{"environmentVariables":{"__FIREBASE_FRAMEWORKS_ENTRY__":"next.js","FIREBASE_CONFIG":"{\"projectId\":\"game-forums-sh\",\"storageBucket\":\"game-forums-sh.appspot.com\"}","GCLOUD_PROJECT":"game-forums-sh","EVENTARC_CLOUD_EVENT_SOURCE":"projects/game-forums-sh/locations/us-central1/services/ssrgameforumssh"},"ingressSettings":null,"timeoutSeconds":null,"serviceAccountEmail":null,"availableMemory":"256Mi","minInstanceCount":null,"maxInstanceCount":null,"maxInstanceRequestConcurrency":80,"availableCpu":"1","vpcConnector":null,"vpcConnectorEgressSettings":null},"labels":{"deployment-tool":"cli-firebase","firebase-functions-codebase":"firebase-frameworks-game-forums-sh","firebase-functions-hash":"639e073e6f35f18f484a550b055c5a6bb83472be"}}
+[debug] [2023-08-05T17:57:38.749Z] <<< [apiv2][status] POST https://cloudfunctions.googleapis.com/v2/projects/game-forums-sh/locations/us-central1/functions 400
+[debug] [2023-08-05T17:57:38.750Z] <<< [apiv2][body] POST https://cloudfunctions.googleapis.com/v2/projects/game-forums-sh/locations/us-central1/functions {"error":{"code":400,"message":"Could not create Cloud Run service ssrgameforumssh. spec.template.spec.containers.resources.limits.cpu: Invalid value specified for cpu. For the specified value, maxScale may not exceed 10.\nConsider running your workload in a region with greater capacity, decreasing your requested cpu-per-instance, or requesting an increase in quota for this region if you are seeing sustained usage near this limit, see https://cloud.google.com/run/quotas. Your project may gain access to further scaling by adding billing information to your account.","status":"INVALID_ARGUMENT"}}
+[warn] ⚠  functions: Your current project quotas don't allow for the current max instances setting of 100. Either reduce this function's maximum instances, or request a quota increase on the underlying Cloud Run service at https://cloud.google.com/run/quotas. 
+[warn] ⚠  functions: You can adjust the max instances value in your function's runtime options:
+	setGlobalOptions({maxInstances: 10}) 
+[error] Failed to create function projects/game-forums-sh/locations/us-central1/functions/ssrgameforumssh
+[debug] [2023-08-05T17:57:38.761Z] Total Function Deployment time: 665
+[debug] [2023-08-05T17:57:38.761Z] 1 Functions Deployed
+[debug] [2023-08-05T17:57:38.761Z] 1 Functions Errored
+[debug] [2023-08-05T17:57:38.761Z] 0 Function Deployments Aborted
+[debug] [2023-08-05T17:57:38.761Z] Average Function Deployment time: 664
+[info] 
+[info] Functions deploy had errors with the following functions:
+	firebase-frameworks-game-forums-sh:ssrgameforumssh(us-central1)
+[debug] [2023-08-05T17:57:38.847Z] Not printing URL for HTTPS function. Typically this means it didn't match a filter or we failed deployment
+[info] i  functions: cleaning up build files... 
+[debug] [2023-08-05T17:57:38.849Z] >>> [apiv2][query] DELETE https://artifactregistry.googleapis.com/v1beta2/projects/game-forums-sh/locations/us-central1/repositories/gcf-artifacts/packages/ssrgameforumssh [none]
+[debug] [2023-08-05T17:57:38.851Z] >>> [apiv2][query] GET https://us.gcr.io/v2/game-forums-sh/gcf/us-central1/tags/list [none]
+[debug] [2023-08-05T17:57:39.014Z] <<< [apiv2][status] GET https://us.gcr.io/v2/game-forums-sh/gcf/us-central1/tags/list 200
+[debug] [2023-08-05T17:57:39.014Z] <<< [apiv2][body] GET https://us.gcr.io/v2/game-forums-sh/gcf/us-central1/tags/list {"child":[],"manifest":{},"name":"game-forums-sh/gcf/us-central1","tags":[]}
+[debug] [2023-08-05T17:57:39.015Z] Could not find image for function projects/game-forums-sh/locations/us-central1/functions/ssrgameforumssh
+[debug] [2023-08-05T17:57:39.177Z] <<< [apiv2][status] DELETE https://artifactregistry.googleapis.com/v1beta2/projects/game-forums-sh/locations/us-central1/repositories/gcf-artifacts/packages/ssrgameforumssh 404
+[debug] [2023-08-05T17:57:39.177Z] <<< [apiv2][body] DELETE https://artifactregistry.googleapis.com/v1beta2/projects/game-forums-sh/locations/us-central1/repositories/gcf-artifacts/packages/ssrgameforumssh {"error":{"code":404,"message":"Package \"projects/game-forums-sh/locations/us-central1/repositories/gcf-artifacts/packages/ssrgameforumssh\" was not found.","status":"NOT_FOUND"}}
+[debug] [2023-08-05T17:57:39.178Z] Functions deploy failed.
+[debug] [2023-08-05T17:57:39.178Z] {
+  "endpoint": {
+    "id": "ssrgameforumssh",
+    "project": "game-forums-sh",
+    "region": "us-central1",
+    "entryPoint": "ssrgameforumssh",
+    "platform": "gcfv2",
+    "runtime": "nodejs18",
+    "httpsTrigger": {},
+    "labels": {
+      "deployment-tool": "cli-firebase"
+    },
+    "serviceAccount": null,
+    "ingressSettings": null,
+    "availableMemoryMb": null,
+    "timeoutSeconds": null,
+    "maxInstances": null,
+    "minInstances": null,
+    "concurrency": 80,
+    "vpc": null,
+    "environmentVariables": {
+      "__FIREBASE_FRAMEWORKS_ENTRY__": "next.js",
+      "FIREBASE_CONFIG": "{\"projectId\":\"game-forums-sh\",\"storageBucket\":\"game-forums-sh.appspot.com\"}",
+      "GCLOUD_PROJECT": "game-forums-sh",
+      "EVENTARC_CLOUD_EVENT_SOURCE": "projects/game-forums-sh/locations/us-central1/services/ssrgameforumssh"
+    },
+    "codebase": "firebase-frameworks-game-forums-sh",
+    "cpu": 1,
+    "targetedByOnly": false,
+    "hash": "639e073e6f35f18f484a550b055c5a6bb83472be"
+  },
+  "op": "create",
+  "original": {
+    "name": "FirebaseError",
+    "children": [],
+    "context": {
+      "function": "projects/game-forums-sh/locations/us-central1/functions/ssrgameforumssh"
+    },
+    "exit": 1,
+    "message": "Failed to create function projects/game-forums-sh/locations/us-central1/functions/ssrgameforumssh",
+    "original": {
+      "name": "FirebaseError",
+      "children": [],
+      "context": {
+        "body": {
+          "error": {
+            "code": 400,
+            "message": "Could not create Cloud Run service ssrgameforumssh. spec.template.spec.containers.resources.limits.cpu: Invalid value specified for cpu. For the specified value, maxScale may not exceed 10.\nConsider running your workload in a region with greater capacity, decreasing your requested cpu-per-instance, or requesting an increase in quota for this region if you are seeing sustained usage near this limit, see https://cloud.google.com/run/quotas. Your project may gain access to further scaling by adding billing information to your account.",
+            "status": "INVALID_ARGUMENT"
+          }
+        },
+        "response": {
+          "statusCode": 400
+        }
+      },
+      "exit": 1,
+      "message": "HTTP Error: 400, Could not create Cloud Run service ssrgameforumssh. spec.template.spec.containers.resources.limits.cpu: Invalid value specified for cpu. For the specified value, maxScale may not exceed 10.\nConsider running your workload in a region with greater capacity, decreasing your requested cpu-per-instance, or requesting an increase in quota for this region if you are seeing sustained usage near this limit, see https://cloud.google.com/run/quotas. Your project may gain access to further scaling by adding billing information to your account.",
+      "status": 400
+    },
+    "status": 400,
+    "code": 400
+  }
+}
+[debug] [2023-08-05T17:57:39.241Z] Error: Failed to create function ssrgameforumssh in region us-central1
+    at /usr/local/lib/node_modules/firebase-tools/lib/deploy/functions/release/fabricator.js:288:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Fabricator.createV2Function (/usr/local/lib/node_modules/firebase-tools/lib/deploy/functions/release/fabricator.js:276:30)
+    at async Fabricator.createEndpoint (/usr/local/lib/node_modules/firebase-tools/lib/deploy/functions/release/fabricator.js:135:13)
+    at async handle (/usr/local/lib/node_modules/firebase-tools/lib/deploy/functions/release/fabricator.js:88:17)
+[error] 
+[error] Error: There was an error deploying functions
+[debug] [2023-08-05T18:00:22.750Z] ----------------------------------------------------------------------
+[debug] [2023-08-05T18:00:22.751Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2023-08-05T18:00:22.752Z] CLI Version:   12.4.7
+[debug] [2023-08-05T18:00:22.752Z] Platform:      darwin
+[debug] [2023-08-05T18:00:22.752Z] Node Version:  v18.16.0
+[debug] [2023-08-05T18:00:22.752Z] Time:          Sat Aug 05 2023 14:00:22 GMT-0400 (Eastern Daylight Time)
+[debug] [2023-08-05T18:00:22.753Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-05T18:00:22.785Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-08-05T18:00:22.785Z] > authorizing via signed-in user (samuel.holmes.104@gmail.com)
+[debug] [2023-08-05T18:00:22.785Z] [iam] checking project game-forums-sh for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-08-05T18:00:22.786Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/game-forums-sh:testIamPermissions [none]
+[debug] [2023-08-05T18:00:22.786Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/game-forums-sh:testIamPermissions x-goog-quota-user=projects/game-forums-sh
+[debug] [2023-08-05T18:00:22.786Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/game-forums-sh:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-08-05T18:00:22.972Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/game-forums-sh:testIamPermissions 200
+[debug] [2023-08-05T18:00:22.973Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/game-forums-sh:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-08-05T18:00:22.973Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/game-forums-sh/serviceAccounts/game-forums-sh@appspot.gserviceaccount.com:testIamPermissions [none]
+[debug] [2023-08-05T18:00:22.973Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/game-forums-sh/serviceAccounts/game-forums-sh@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2023-08-05T18:00:23.138Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/game-forums-sh/serviceAccounts/game-forums-sh@appspot.gserviceaccount.com:testIamPermissions 200
+[debug] [2023-08-05T18:00:23.138Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/game-forums-sh/serviceAccounts/game-forums-sh@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2023-08-05T18:00:23.140Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/game-forums-sh [none]
+[debug] [2023-08-05T18:00:23.529Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/game-forums-sh 200
+[debug] [2023-08-05T18:00:23.530Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/game-forums-sh {"projectId":"game-forums-sh","projectNumber":"960495738264","displayName":"game-forums-sh","name":"projects/game-forums-sh","resources":{"hostingSite":"game-forums-sh"},"state":"ACTIVE","etag":"1_d8613803-f1a5-4488-9977-3e5c28938d07"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[info] - info Creating an optimized production build...
+
+[info] - info Compiled successfully
+
+[info] - info Linting and checking validity of types...
+
+[info] - info Collecting page data...
+
+[info] - info Generating static pages (0/24)
+
+[info] - info Generating static pages (6/24)
+
+[info] - info Generating static pages (12/24)
+
+[info] - info Generating static pages (18/24)
+
+[info] - info Generating static pages (24/24)
+
+[info] - info Finalizing page optimization...
+
+[info] 
+
+[info] Route (app)                                    Size     First Load JS
+┌ ○ /                                          6.03 kB        83.5 kB
+├ ● /[gamepages]                               137 B          77.6 kB
+├   ├ /elden-ring
+├   ├ /grand-theft-auto-v
+├   ├ /the-legend-of-zelda-breath-of-the-wild
+├   └ [+17 more paths]
+└ ○ /favicon.ico                               0 B                0 B
++ First Load JS shared by all                  77.5 kB
+  ├ chunks/698-1321e6d13d35448d.js             25.1 kB
+  ├ chunks/bce60fc1-8c4748991edb1ec4.js        50.5 kB
+  ├ chunks/main-app-efae49e7e4d97f36.js        213 B
+  └ chunks/webpack-9f9495edd8950d3e.js         1.64 kB
+
+Route (pages)                                  Size     First Load JS
+─ ○ /404                                       181 B          75.4 kB
++ First Load JS shared by all                  75.2 kB
+  ├ chunks/framework-8883d1e9be70c3da.js       45 kB
+  ├ chunks/main-403426eb860d23e4.js            28.4 kB
+  ├ chunks/pages/_app-b75b9482ff6ea491.js      195 B
+  └ chunks/webpack-9f9495edd8950d3e.js         1.64 kB
+
+
+[info] ○  (Static)  automatically rendered as static HTML (uses no initial props)
+●  (SSG)     automatically generated as static HTML + JSON (uses getStaticProps)
+
+
+[info] Building a Cloud Function to run this application. This is needed due to:
+[info]  • use of fallback /[gamepages]
+[info] 
+[debug] [2023-08-05T18:00:34.566Z] [web frameworks] effective firebase.json:  {
+  "hosting": [
+    {
+      "source": ".",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "frameworksBackend": {
+        "region": "us-central1"
+      },
+      "site": "game-forums-sh",
+      "rewrites": [
+        {
+          "source": "**",
+          "function": {
+            "functionId": "ssrgameforumssh",
+            "region": "us-central1",
+            "pinTag": true
+          }
+        }
+      ],
+      "redirects": [],
+      "headers": [
+        {
+          "source": "/favicon.ico",
+          "headers": [
+            {
+              "key": "cache-control",
+              "value": "public, max-age=0, must-revalidate"
+            },
+            {
+              "key": "content-type",
+              "value": "image/x-icon"
+            },
+            {
+              "key": "x-next-cache-tags",
+              "value": "/favicon.ico/route"
+            }
+          ]
+        }
+      ],
+      "cleanUrls": true,
+      "trailingSlash": false,
+      "public": ".firebase/game-forums-sh/hosting",
+      "webFramework": "next_ssr"
+    }
+  ],
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log"
+      ]
+    },
+    {
+      "source": ".firebase/game-forums-sh/functions",
+      "codebase": "firebase-frameworks-game-forums-sh"
+    }
+  ]
+}
+[info] 
+[info] === Deploying to 'game-forums-sh'...
+[info] 
+[info] i  deploying functions, hosting 
+[debug] [2023-08-05T18:00:34.567Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/game-forums-sh [none]
+[debug] [2023-08-05T18:00:34.799Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/game-forums-sh 200
+[debug] [2023-08-05T18:00:34.799Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/game-forums-sh {"projectId":"game-forums-sh","projectNumber":"960495738264","displayName":"game-forums-sh","name":"projects/game-forums-sh","resources":{"hostingSite":"game-forums-sh"},"state":"ACTIVE","etag":"1_d8613803-f1a5-4488-9977-3e5c28938d07"}
+[info] i  functions: preparing codebase default for deployment 
+[info] i  functions: preparing codebase firebase-frameworks-game-forums-sh for deployment 
+[info] i  functions: ensuring required API cloudfunctions.googleapis.com is enabled... 
+[info] i  functions: ensuring required API cloudbuild.googleapis.com is enabled... 
+[info] i  artifactregistry: ensuring required API artifactregistry.googleapis.com is enabled... 
+[debug] [2023-08-05T18:00:34.802Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/cloudfunctions.googleapis.com [none]
+[debug] [2023-08-05T18:00:34.802Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/game-forums-sh
+[debug] [2023-08-05T18:00:34.804Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/runtimeconfig.googleapis.com [none]
+[debug] [2023-08-05T18:00:34.805Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/runtimeconfig.googleapis.com x-goog-quota-user=projects/game-forums-sh
+[debug] [2023-08-05T18:00:34.806Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/cloudbuild.googleapis.com [none]
+[debug] [2023-08-05T18:00:34.806Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/cloudbuild.googleapis.com x-goog-quota-user=projects/game-forums-sh
+[debug] [2023-08-05T18:00:34.807Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/artifactregistry.googleapis.com [none]
+[debug] [2023-08-05T18:00:34.807Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/artifactregistry.googleapis.com x-goog-quota-user=projects/game-forums-sh
+[debug] [2023-08-05T18:00:35.258Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/cloudbuild.googleapis.com 200
+[debug] [2023-08-05T18:00:35.258Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/cloudbuild.googleapis.com [omitted]
+[info] ✔  functions: required API cloudbuild.googleapis.com is enabled 
+[debug] [2023-08-05T18:00:35.259Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/runtimeconfig.googleapis.com 200
+[debug] [2023-08-05T18:00:35.259Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/runtimeconfig.googleapis.com [omitted]
+[debug] [2023-08-05T18:00:35.259Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/cloudfunctions.googleapis.com 200
+[debug] [2023-08-05T18:00:35.259Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/cloudfunctions.googleapis.com [omitted]
+[info] ✔  functions: required API cloudfunctions.googleapis.com is enabled 
+[debug] [2023-08-05T18:00:35.260Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/artifactregistry.googleapis.com 200
+[debug] [2023-08-05T18:00:35.260Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/artifactregistry.googleapis.com [omitted]
+[info] ✔  artifactregistry: required API artifactregistry.googleapis.com is enabled 
+[debug] [2023-08-05T18:00:35.261Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/game-forums-sh/adminSdkConfig [none]
+[debug] [2023-08-05T18:00:35.515Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/game-forums-sh/adminSdkConfig 200
+[debug] [2023-08-05T18:00:35.515Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/game-forums-sh/adminSdkConfig {"projectId":"game-forums-sh","storageBucket":"game-forums-sh.appspot.com"}
+[debug] [2023-08-05T18:00:35.516Z] >>> [apiv2][query] GET https://runtimeconfig.googleapis.com/v1beta1/projects/game-forums-sh/configs [none]
+[debug] [2023-08-05T18:00:35.696Z] <<< [apiv2][status] GET https://runtimeconfig.googleapis.com/v1beta1/projects/game-forums-sh/configs 200
+[debug] [2023-08-05T18:00:35.696Z] <<< [apiv2][body] GET https://runtimeconfig.googleapis.com/v1beta1/projects/game-forums-sh/configs {}
+[debug] [2023-08-05T18:00:35.699Z] Validating nodejs source
+[debug] [2023-08-05T18:00:36.189Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-08-05T18:00:36.189Z] Building nodejs source
+[info] i  functions: Loading and analyzing source code for codebase default to determine what to deploy 
+[debug] [2023-08-05T18:00:36.189Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-08-05T18:00:36.194Z] Found firebase-functions binary at '/Users/samuelholmez/Personal-Code/react-projects/basic-game-info-page/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8895
+
+[debug] [2023-08-05T18:00:36.366Z] Got response from /__/functions.yaml {"endpoints":{},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] shutdown requested via /__/quitquitquit
+
+[debug] [2023-08-05T18:00:36.373Z] Validating nodejs source
+[debug] [2023-08-05T18:00:36.728Z] > [functions] package.json contents: {
+  "name": "basic-game-info-page",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "autoprefixer": "10.4.14",
+    "next": "13.4.9",
+    "postcss": "8.4.25",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwindcss": "3.3.2",
+    "firebase-frameworks": "^0.10.4",
+    "firebase-functions": "^4.3.0",
+    "firebase-admin": "^11.0.1"
+  },
+  "main": "server.js",
+  "engines": {
+    "node": "18"
+  }
+}
+[debug] [2023-08-05T18:00:36.729Z] Building nodejs source
+[info] i  functions: Loading and analyzing source code for codebase firebase-frameworks-game-forums-sh to determine what to deploy 
+[debug] [2023-08-05T18:00:36.729Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-08-05T18:00:36.730Z] Found firebase-functions binary at '/Users/samuelholmez/Personal-Code/react-projects/basic-game-info-page/.firebase/game-forums-sh/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8593
+
+[debug] [2023-08-05T18:00:36.914Z] Got response from /__/functions.yaml {"endpoints":{"ssrgameforumssh":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","region":["us-central1"],"labels":{},"httpsTrigger":{},"entryPoint":"ssrgameforumssh"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] shutdown requested via /__/quitquitquit
+
+[info] i  functions: Loaded environment variables from .env. 
+[info] i  functions: preparing .firebase/game-forums-sh/functions directory for uploading... 
+[info] i  functions: packaged /Users/samuelholmez/Personal-Code/react-projects/basic-game-info-page/.firebase/game-forums-sh/functions (66.02 MB) for uploading 
+[debug] [2023-08-05T18:00:38.613Z] >>> [apiv2][query] GET https://cloudfunctions.googleapis.com/v1/projects/game-forums-sh/locations/-/functions [none]
+[debug] [2023-08-05T18:00:39.269Z] <<< [apiv2][status] GET https://cloudfunctions.googleapis.com/v1/projects/game-forums-sh/locations/-/functions 200
+[debug] [2023-08-05T18:00:39.269Z] <<< [apiv2][body] GET https://cloudfunctions.googleapis.com/v1/projects/game-forums-sh/locations/-/functions {}
+[debug] [2023-08-05T18:00:39.271Z] >>> [apiv2][query] GET https://cloudfunctions.googleapis.com/v2/projects/game-forums-sh/locations/-/functions filter=environment%3D%22GEN_2%22
+[debug] [2023-08-05T18:00:39.808Z] <<< [apiv2][status] GET https://cloudfunctions.googleapis.com/v2/projects/game-forums-sh/locations/-/functions 200
+[debug] [2023-08-05T18:00:39.808Z] <<< [apiv2][body] GET https://cloudfunctions.googleapis.com/v2/projects/game-forums-sh/locations/-/functions {}
+[info] i  functions: ensuring required API run.googleapis.com is enabled... 
+[info] i  functions: ensuring required API eventarc.googleapis.com is enabled... 
+[info] i  functions: ensuring required API pubsub.googleapis.com is enabled... 
+[info] i  functions: ensuring required API storage.googleapis.com is enabled... 
+[debug] [2023-08-05T18:00:39.815Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/run.googleapis.com [none]
+[debug] [2023-08-05T18:00:39.815Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/run.googleapis.com x-goog-quota-user=projects/game-forums-sh
+[debug] [2023-08-05T18:00:39.817Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/eventarc.googleapis.com [none]
+[debug] [2023-08-05T18:00:39.817Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/eventarc.googleapis.com x-goog-quota-user=projects/game-forums-sh
+[debug] [2023-08-05T18:00:39.818Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/pubsub.googleapis.com [none]
+[debug] [2023-08-05T18:00:39.818Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/pubsub.googleapis.com x-goog-quota-user=projects/game-forums-sh
+[debug] [2023-08-05T18:00:39.819Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/storage.googleapis.com [none]
+[debug] [2023-08-05T18:00:39.819Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/storage.googleapis.com x-goog-quota-user=projects/game-forums-sh
+[debug] [2023-08-05T18:00:40.245Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/pubsub.googleapis.com 200
+[debug] [2023-08-05T18:00:40.246Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/pubsub.googleapis.com [omitted]
+[info] ✔  functions: required API pubsub.googleapis.com is enabled 
+[debug] [2023-08-05T18:00:40.247Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/run.googleapis.com 200
+[debug] [2023-08-05T18:00:40.247Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/run.googleapis.com [omitted]
+[info] ✔  functions: required API run.googleapis.com is enabled 
+[debug] [2023-08-05T18:00:40.249Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/eventarc.googleapis.com 200
+[debug] [2023-08-05T18:00:40.249Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/eventarc.googleapis.com [omitted]
+[info] ✔  functions: required API eventarc.googleapis.com is enabled 
+[debug] [2023-08-05T18:00:40.249Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/storage.googleapis.com 200
+[debug] [2023-08-05T18:00:40.249Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/game-forums-sh/services/storage.googleapis.com [omitted]
+[info] ✔  functions: required API storage.googleapis.com is enabled 
+[info] i  functions: generating the service identity for pubsub.googleapis.com... 
+[info] i  functions: generating the service identity for eventarc.googleapis.com... 
+[debug] [2023-08-05T18:00:40.250Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1beta1/projects/960495738264/services/pubsub.googleapis.com:generateServiceIdentity [none]
+[debug] [2023-08-05T18:00:40.252Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1beta1/projects/960495738264/services/eventarc.googleapis.com:generateServiceIdentity [none]
+[debug] [2023-08-05T18:00:40.893Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1beta1/projects/960495738264/services/pubsub.googleapis.com:generateServiceIdentity 200
+[debug] [2023-08-05T18:00:40.894Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1beta1/projects/960495738264/services/pubsub.googleapis.com:generateServiceIdentity {"name":"operations/finished.DONE_OPERATION","done":true,"response":{"@type":"type.googleapis.com/google.api.serviceusage.v1beta1.ServiceIdentity","email":"service-960495738264@gcp-sa-pubsub.iam.gserviceaccount.com","uniqueId":"105983565779509499790"}}
+[debug] [2023-08-05T18:00:40.936Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1beta1/projects/960495738264/services/eventarc.googleapis.com:generateServiceIdentity 200
+[debug] [2023-08-05T18:00:40.936Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1beta1/projects/960495738264/services/eventarc.googleapis.com:generateServiceIdentity {"name":"operations/finished.DONE_OPERATION","done":true,"response":{"@type":"type.googleapis.com/google.api.serviceusage.v1beta1.ServiceIdentity","email":"service-960495738264@gcp-sa-eventarc.iam.gserviceaccount.com","uniqueId":"103644320349471016237"}}
+[debug] [2023-08-05T18:00:40.942Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/game-forums-sh [none]
+[debug] [2023-08-05T18:00:41.181Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/game-forums-sh 200
+[debug] [2023-08-05T18:00:41.182Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/game-forums-sh {"projectId":"game-forums-sh","projectNumber":"960495738264","displayName":"game-forums-sh","name":"projects/game-forums-sh","resources":{"hostingSite":"game-forums-sh"},"state":"ACTIVE","etag":"1_d8613803-f1a5-4488-9977-3e5c28938d07"}
+[debug] [2023-08-05T18:00:41.188Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/game-forums-sh/versions [none]
+[debug] [2023-08-05T18:00:41.188Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/game-forums-sh/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase","firebase-web-framework":"next_ssr"}}
+[debug] [2023-08-05T18:00:41.759Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/game-forums-sh/versions 200
+[debug] [2023-08-05T18:00:41.759Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/game-forums-sh/versions {"name":"projects/960495738264/sites/game-forums-sh/versions/9ea595c112b2a51c","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase","firebase-web-framework":"next_ssr"}}
+[debug] [2023-08-05T18:00:41.761Z] [functions] found 1 new HTTP functions, testing setIamPolicy permission...
+[debug] [2023-08-05T18:00:41.761Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/game-forums-sh:testIamPermissions [none]
+[debug] [2023-08-05T18:00:41.762Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/game-forums-sh:testIamPermissions x-goog-quota-user=projects/game-forums-sh
+[debug] [2023-08-05T18:00:41.762Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/game-forums-sh:testIamPermissions {"permissions":["cloudfunctions.functions.setIamPolicy"]}
+[debug] [2023-08-05T18:00:41.933Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/game-forums-sh:testIamPermissions 200
+[debug] [2023-08-05T18:00:41.933Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/game-forums-sh:testIamPermissions {"permissions":["cloudfunctions.functions.setIamPolicy"]}
+[debug] [2023-08-05T18:00:41.933Z] [functions] found setIamPolicy permission, proceeding with deploy
+[debug] [2023-08-05T18:00:41.935Z] >>> [apiv2][query] POST https://cloudfunctions.googleapis.com/v2/projects/game-forums-sh/locations/us-central1/functions:generateUploadUrl [none]
+[debug] [2023-08-05T18:00:42.304Z] <<< [apiv2][status] POST https://cloudfunctions.googleapis.com/v2/projects/game-forums-sh/locations/us-central1/functions:generateUploadUrl 200
+[debug] [2023-08-05T18:00:42.304Z] <<< [apiv2][body] POST https://cloudfunctions.googleapis.com/v2/projects/game-forums-sh/locations/us-central1/functions:generateUploadUrl {"uploadUrl":"https://storage.googleapis.com/gcf-v2-uploads-960495738264-us-central1/913331df-50d1-44a1-b518-73db577ffe56.zip?GoogleAccessId=service-960495738264@gcf-admin-robot.iam.gserviceaccount.com&Expires=1691260242&Signature=RXHR5cLNY8arJ6%2BaeE0nf8LVL4IHUG%2F4tF9EVUh2xfRYmWvGRtLchMk%2FkG5fuyHk3%2FhCGVX0JPVT%2B%2BVtLFvkQ0PywxHwugERlq2%2FrpNAG%2FM9j6MGcRCybW29ZgLwO8TQ%2FBHDcdK0ak0IDgEV4e61EXxavjO45jmhchi9Q%2FcSQ6hGkJHRrKr5f4lkLkDxX2kYHPrNFt61F4bj7Ax%2Fvd9CszLB2cy42LTiHswfcTsfOdUbL2FatqW6rFu1qHoO1Hboet9WAKtQtIT1kmq5HDe8SEtDbQ3ayGqHrymqXCKsvQpKfyY2NCiHMHZ2tSVgAcVj%2FlQToUOUzmVV%2BclzeLGkXA%3D%3D","storageSource":{"bucket":"gcf-v2-uploads-960495738264-us-central1","object":"913331df-50d1-44a1-b518-73db577ffe56.zip"}}
+[debug] [2023-08-05T18:00:42.306Z] >>> [apiv2][query] PUT https://storage.googleapis.com/gcf-v2-uploads-960495738264-us-central1/913331df-50d1-44a1-b518-73db577ffe56.zip GoogleAccessId=service-960495738264%40gcf-admin-robot.iam.gserviceaccount.com&Expires=1691260242&Signature=RXHR5cLNY8arJ6%2BaeE0nf8LVL4IHUG%2F4tF9EVUh2xfRYmWvGRtLchMk%2FkG5fuyHk3%2FhCGVX0JPVT%2B%2BVtLFvkQ0PywxHwugERlq2%2FrpNAG%2FM9j6MGcRCybW29ZgLwO8TQ%2FBHDcdK0ak0IDgEV4e61EXxavjO45jmhchi9Q%2FcSQ6hGkJHRrKr5f4lkLkDxX2kYHPrNFt61F4bj7Ax%2Fvd9CszLB2cy42LTiHswfcTsfOdUbL2FatqW6rFu1qHoO1Hboet9WAKtQtIT1kmq5HDe8SEtDbQ3ayGqHrymqXCKsvQpKfyY2NCiHMHZ2tSVgAcVj%2FlQToUOUzmVV%2BclzeLGkXA%3D%3D
+[debug] [2023-08-05T18:00:42.306Z] >>> [apiv2][body] PUT https://storage.googleapis.com/gcf-v2-uploads-960495738264-us-central1/913331df-50d1-44a1-b518-73db577ffe56.zip [stream]
+[debug] [2023-08-05T18:00:48.169Z] <<< [apiv2][status] PUT https://storage.googleapis.com/gcf-v2-uploads-960495738264-us-central1/913331df-50d1-44a1-b518-73db577ffe56.zip 200
+[debug] [2023-08-05T18:00:48.170Z] <<< [apiv2][body] PUT https://storage.googleapis.com/gcf-v2-uploads-960495738264-us-central1/913331df-50d1-44a1-b518-73db577ffe56.zip [omitted]
+[info] ✔  functions: .firebase/game-forums-sh/functions folder uploaded successfully 
+[info] i  hosting[game-forums-sh]: beginning deploy... 
+[info] i  hosting[game-forums-sh]: found 50 files in .firebase/game-forums-sh/hosting 
+[debug] [2023-08-05T18:00:48.187Z] [hosting] uploading with 200 concurrency
+[debug] [2023-08-05T18:00:48.245Z] [hosting] hash cache [LmZpcmViYXNlL2dhbWUtZm9ydW1zLXNoL2hvc3Rpbmc] stored for 50 files
+[debug] [2023-08-05T18:00:48.245Z] [hosting][hash queue][FINAL] {"max":48,"min":15,"avg":17.56,"active":0,"complete":50,"success":50,"errored":0,"retried":0,"total":50,"elapsed":54}
+[debug] [2023-08-05T18:00:48.246Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/960495738264/sites/game-forums-sh/versions/9ea595c112b2a51c:populateFiles [none]
+[debug] [2023-08-05T18:00:48.246Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/960495738264/sites/game-forums-sh/versions/9ea595c112b2a51c:populateFiles {"files":{"/404.html":"3671114a09944b44933d8f7240d2ed183ae00d9ea4f56dd82c9574f6cee93f13","/cyberpunk-2077.html":"93ef5d4f8f0c99aaad721e20b095bf53ff15c33a62c5c2e634d91f56c1054039","/firewatch.html":"1830aa2b99200fd0f90e836fb25cef26de7add3629f1bc11988f389012ece5b5","/ghost-of-tsushima.html":"27d3ffc4189434debe77793eb6ab62e73ec93e74347da67f9f1051e5aab0d536","/favicon.ico":"f5c80489fbbfe993b3ce2a397a0dfaf02a45d782be42ad5d712af689fcb4f16c","/god-of-war-ragnarok.html":"fdf524dac4b568f9c12725bec185d2f74184a88ff5a086ecd2fdc7e983325478","/elden-ring.html":"eceeccc29ac34255133a525407134044a15f3a664fab00ca1a86054a3a76c7c0","/disco-elysium.html":"91a7dd2e66bda4f64c08e786dc8a6a350c24c51e402b5397483e453a6c54635f","/celeste.html":"f8543de91b3b6282bb5dc0095b8c61411c8971f4d4df2d60717cd1b7178b8a52","/god-of-war.html":"36fdaab0fd4f45e4db120029f411ed64585c8102ae30d21fb439c0f5c9a8634e","/inside.html":"36df865f41f67cba817ec6712f02f62a3a42180e811293edd2e15f0621bcaf7f","/grand-theft-auto-v.html":"2d0b8071fe284015e0f8fd21b80f19312ea5b75e4ac8bcdf829f32affe04f160","/ratchet-and-clank-rift-apart.html":"6143acbe5dc3f4f91e16e1961fd7c1c98ac5a5673c6535605b4c0dc444b4a4f5","/red-dead-redemption-2.html":"fb921f2e57fa6b72561209cf7476d8b07b19ae6dda5484285766e9846c2589ab","/super-mario-odyssey.html":"3cf1f682cb4e9a8ff530d199483505cf93ea2720f830e7b1f5be85c496ded12d","/index.html":"87c5aa30ff68571bdb61a863c91f0407ee14af1492995c2d4b1e2e4cfb6391de","/_next/static/OcD3V-cCEptVSrGkWHH7K/_buildManifest.js":"22c37d96938987201b8bcb06e70125813225d87a02198ce97dc50320225b7857","/spider-man-miles-morales.html":"0251bff2d1c7e0a4a27731d96c579caa46db6f5ffd96bef053c30c0df899e23e","/_next/static/OcD3V-cCEptVSrGkWHH7K/_ssgManifest.js":"a48db8eb8f86619cf79fc2ce11ab049a12dd45408ca9b4dd737ed3e18a9cad78","/returnal.html":"6e78c7befc9cbb980e3d35ee36674ee4b0da42e07fba189e60815f288ec3d94c","/the-legend-of-zelda-breath-of-the-wild.html":"45c6c079122d420c1fea6a630d195bf01ca6ad8c7c9603064525feb8b1c6b7b4","/the-outer-wilds.html":"b667c142b97b3848468303c55f62b5a3b70175f1c400482a5219960794504c63","/what-remains-of-edith-finch.html":"c6645781e4f74fd45928f432bdc67090204d5180b9e2cd4f976d2fbfad4d3622","/_next/static/chunks/main-app-efae49e7e4d97f36.js":"669934d0b53a5dee082fc8ea606b4c58afe85a26a3c25ac45c4ca25e369d6596","/_next/static/chunks/95-fe2423899271355b.js":"4af019973ad561d66bb8b9273eb02ef66ed80ed804e2f0250f424fe11bfbae03","/horizon-forbidden-west.html":"5a12a2cad0b9c2c89f757bbfef9ee365b49fd0befff757983c595f0fe0e22ff0","/_next/static/chunks/app/layout-9d1466041695fb69.js":"3f4d567079360a38a6e562de0e469f89f6d7fafe7ccfc95b491e383fc6fbb5b2","/_next/static/chunks/webpack-9f9495edd8950d3e.js":"428bf311ee365cead0e95426195ad8a3f0ff751eaf9926e9d8b59e6a62d56bba","/_next/static/chunks/app/page-0415337e6ca8eff5.js":"33d82eeb9a35c0aa85df50cf1fccce06add66c55b5e4351062857010336c28d5","/_next/static/chunks/app/[gamepages]/error-bcb25f92169fd805.js":"59f3ce28e9d00ee62852a9918d713f94ff810b7de6e6fbefb0850d3275d37a05","/_next/static/chunks/app/[gamepages]/page-ad4e06d8d75922f9.js":"17a079b8e350d84216dd93cea559c9921ca3c187b73dabf95dfa1b9cd9d5f73b","/_next/static/chunks/pages/_error-7fafba9435aeb6bc.js":"cabf485cf90d3b4574bb81ce71d1da556ed747990a616be5247f406fa4ead6fb","/_next/static/chunks/pages/_app-b75b9482ff6ea491.js":"89097a1b5ed8c16c36dae8df4b4d073bb9146cba9e75aa26a880e227190ee7f2","/_next/static/css/e9112e7bec24096b.css":"9317d7b90c5b067f6c41b8285c4a2d5815397dc620a7ac56fe01315ab63d5341","/_next/static/media/ae9ae6716d4f8bf8-s.woff2":"43ee6ef2612f5b1a6a4da26f6794a153e3a114ca63e5514b42fe971a591c14f1","/_next/static/media/b1db3e28af9ef94a-s.woff2":"341f8eeb10eece9821ba627cdf2e4b8ce5f845688ba7319e8e83b8a511ab6f72","/hollow-knight.html":"1bbea2d22bf49545d66bdfddf6deeaec5db238be8ca49d697a6fe2fa5c0a9cb4","/_next/static/media/b967158bc7d7a9fb-s.woff2":"cd209411a73ed645b4188157c5b0ad5f2bd7fd7e2eb8e39afe2a9f03ebd335c4","/_next/static/media/d1d9458b69004127-s.woff2":"23b66f06ae0de7c955b12751edf341301743b7ef23171ea504ba992767a42394","/_next/static/media/c0f5ec5bbf5913b7-s.woff2":"80b15feaba5060ab0f867e9a7512eb95ec390bc76fa8922c943dd3797fa2eb78","/_next/static/chunks/698-1321e6d13d35448d.js":"448ba897d9a796c5e935ff26bc226cae118e96f30028defa90b3a0ea102e8597","/_next/static/chunks/main-403426eb860d23e4.js":"ea8e1a7ce91f12c20fccb56229b18d9d0ea203d6c683df4798690cf73b1bdd41","/_next/static/media/2aaf0723e720e8b9-s.p.woff2":"9125e2daf16cf67750042d05cadbc2d52f21d5641d8826d240adfd57f7184d9f","/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js":"76f0b40a22fd1d40b34e6072089550d8573c7207c510dc41038d823c7fa3c369","/_next/static/media/9c4f34569c9b36ca-s.woff2":"ce8049481d541c70f4db24fcf42634377ef9124d3f9fd086c344e1aff3f77a68","/_next/static/chunks/framework-8883d1e9be70c3da.js":"740a9917902c50b922f543c2c4f39e60359ba656dfa9cb709d20c8ad7c43fd24","/_next/static/chunks/bce60fc1-8c4748991edb1ec4.js":"c9d8e09518a837db763e0194a1a1349ad0996e181f083a20046c0bf93a4356f9","/images/GithubLogo.png":"749aefc235197296e4f76f5754b225b6a42fc92d7d6a9d3c05469387abc925da","/images/LinkedinLogo.png":"66866c80fb20ba24b70f58b63ceb504b1a60646380a382f3b6339c997e0cae44","/images/logo.png":"817758c6b13873da747398671fa010f61a24e336372be00d9738872c09eaf86f"}}
+[debug] [2023-08-05T18:00:48.708Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/960495738264/sites/game-forums-sh/versions/9ea595c112b2a51c:populateFiles 200
+[debug] [2023-08-05T18:00:48.708Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/960495738264/sites/game-forums-sh/versions/9ea595c112b2a51c:populateFiles {"uploadRequiredHashes":["91a7dd2e66bda4f64c08e786dc8a6a350c24c51e402b5397483e453a6c54635f","87c5aa30ff68571bdb61a863c91f0407ee14af1492995c2d4b1e2e4cfb6391de","b667c142b97b3848468303c55f62b5a3b70175f1c400482a5219960794504c63","27d3ffc4189434debe77793eb6ab62e73ec93e74347da67f9f1051e5aab0d536","eceeccc29ac34255133a525407134044a15f3a664fab00ca1a86054a3a76c7c0","3671114a09944b44933d8f7240d2ed183ae00d9ea4f56dd82c9574f6cee93f13","1830aa2b99200fd0f90e836fb25cef26de7add3629f1bc11988f389012ece5b5","45c6c079122d420c1fea6a630d195bf01ca6ad8c7c9603064525feb8b1c6b7b4","6143acbe5dc3f4f91e16e1961fd7c1c98ac5a5673c6535605b4c0dc444b4a4f5","2d0b8071fe284015e0f8fd21b80f19312ea5b75e4ac8bcdf829f32affe04f160","c6645781e4f74fd45928f432bdc67090204d5180b9e2cd4f976d2fbfad4d3622","3cf1f682cb4e9a8ff530d199483505cf93ea2720f830e7b1f5be85c496ded12d","6e78c7befc9cbb980e3d35ee36674ee4b0da42e07fba189e60815f288ec3d94c","f8543de91b3b6282bb5dc0095b8c61411c8971f4d4df2d60717cd1b7178b8a52","93ef5d4f8f0c99aaad721e20b095bf53ff15c33a62c5c2e634d91f56c1054039","1bbea2d22bf49545d66bdfddf6deeaec5db238be8ca49d697a6fe2fa5c0a9cb4","36df865f41f67cba817ec6712f02f62a3a42180e811293edd2e15f0621bcaf7f","5a12a2cad0b9c2c89f757bbfef9ee365b49fd0befff757983c595f0fe0e22ff0","36fdaab0fd4f45e4db120029f411ed64585c8102ae30d21fb439c0f5c9a8634e","fb921f2e57fa6b72561209cf7476d8b07b19ae6dda5484285766e9846c2589ab","0251bff2d1c7e0a4a27731d96c579caa46db6f5ffd96bef053c30c0df899e23e","fdf524dac4b568f9c12725bec185d2f74184a88ff5a086ecd2fdc7e983325478"],"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files"}
+[debug] [2023-08-05T18:00:48.713Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/91a7dd2e66bda4f64c08e786dc8a6a350c24c51e402b5397483e453a6c54635f [none]
+[debug] [2023-08-05T18:00:48.713Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/91a7dd2e66bda4f64c08e786dc8a6a350c24c51e402b5397483e453a6c54635f [stream]
+[debug] [2023-08-05T18:00:48.714Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/87c5aa30ff68571bdb61a863c91f0407ee14af1492995c2d4b1e2e4cfb6391de [none]
+[debug] [2023-08-05T18:00:48.714Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/87c5aa30ff68571bdb61a863c91f0407ee14af1492995c2d4b1e2e4cfb6391de [stream]
+[debug] [2023-08-05T18:00:48.715Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/b667c142b97b3848468303c55f62b5a3b70175f1c400482a5219960794504c63 [none]
+[debug] [2023-08-05T18:00:48.715Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/b667c142b97b3848468303c55f62b5a3b70175f1c400482a5219960794504c63 [stream]
+[debug] [2023-08-05T18:00:48.716Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/27d3ffc4189434debe77793eb6ab62e73ec93e74347da67f9f1051e5aab0d536 [none]
+[debug] [2023-08-05T18:00:48.716Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/27d3ffc4189434debe77793eb6ab62e73ec93e74347da67f9f1051e5aab0d536 [stream]
+[debug] [2023-08-05T18:00:48.717Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/eceeccc29ac34255133a525407134044a15f3a664fab00ca1a86054a3a76c7c0 [none]
+[debug] [2023-08-05T18:00:48.717Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/eceeccc29ac34255133a525407134044a15f3a664fab00ca1a86054a3a76c7c0 [stream]
+[debug] [2023-08-05T18:00:48.718Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/3671114a09944b44933d8f7240d2ed183ae00d9ea4f56dd82c9574f6cee93f13 [none]
+[debug] [2023-08-05T18:00:48.718Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/3671114a09944b44933d8f7240d2ed183ae00d9ea4f56dd82c9574f6cee93f13 [stream]
+[debug] [2023-08-05T18:00:48.718Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/1830aa2b99200fd0f90e836fb25cef26de7add3629f1bc11988f389012ece5b5 [none]
+[debug] [2023-08-05T18:00:48.718Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/1830aa2b99200fd0f90e836fb25cef26de7add3629f1bc11988f389012ece5b5 [stream]
+[debug] [2023-08-05T18:00:48.719Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/45c6c079122d420c1fea6a630d195bf01ca6ad8c7c9603064525feb8b1c6b7b4 [none]
+[debug] [2023-08-05T18:00:48.719Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/45c6c079122d420c1fea6a630d195bf01ca6ad8c7c9603064525feb8b1c6b7b4 [stream]
+[debug] [2023-08-05T18:00:48.720Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/6143acbe5dc3f4f91e16e1961fd7c1c98ac5a5673c6535605b4c0dc444b4a4f5 [none]
+[debug] [2023-08-05T18:00:48.720Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/6143acbe5dc3f4f91e16e1961fd7c1c98ac5a5673c6535605b4c0dc444b4a4f5 [stream]
+[debug] [2023-08-05T18:00:48.721Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/2d0b8071fe284015e0f8fd21b80f19312ea5b75e4ac8bcdf829f32affe04f160 [none]
+[debug] [2023-08-05T18:00:48.721Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/2d0b8071fe284015e0f8fd21b80f19312ea5b75e4ac8bcdf829f32affe04f160 [stream]
+[debug] [2023-08-05T18:00:48.722Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/c6645781e4f74fd45928f432bdc67090204d5180b9e2cd4f976d2fbfad4d3622 [none]
+[debug] [2023-08-05T18:00:48.722Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/c6645781e4f74fd45928f432bdc67090204d5180b9e2cd4f976d2fbfad4d3622 [stream]
+[debug] [2023-08-05T18:00:48.723Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/3cf1f682cb4e9a8ff530d199483505cf93ea2720f830e7b1f5be85c496ded12d [none]
+[debug] [2023-08-05T18:00:48.723Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/3cf1f682cb4e9a8ff530d199483505cf93ea2720f830e7b1f5be85c496ded12d [stream]
+[debug] [2023-08-05T18:00:48.723Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/6e78c7befc9cbb980e3d35ee36674ee4b0da42e07fba189e60815f288ec3d94c [none]
+[debug] [2023-08-05T18:00:48.723Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/6e78c7befc9cbb980e3d35ee36674ee4b0da42e07fba189e60815f288ec3d94c [stream]
+[debug] [2023-08-05T18:00:48.724Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/f8543de91b3b6282bb5dc0095b8c61411c8971f4d4df2d60717cd1b7178b8a52 [none]
+[debug] [2023-08-05T18:00:48.724Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/f8543de91b3b6282bb5dc0095b8c61411c8971f4d4df2d60717cd1b7178b8a52 [stream]
+[debug] [2023-08-05T18:00:48.725Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/93ef5d4f8f0c99aaad721e20b095bf53ff15c33a62c5c2e634d91f56c1054039 [none]
+[debug] [2023-08-05T18:00:48.725Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/93ef5d4f8f0c99aaad721e20b095bf53ff15c33a62c5c2e634d91f56c1054039 [stream]
+[debug] [2023-08-05T18:00:48.725Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/1bbea2d22bf49545d66bdfddf6deeaec5db238be8ca49d697a6fe2fa5c0a9cb4 [none]
+[debug] [2023-08-05T18:00:48.725Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/1bbea2d22bf49545d66bdfddf6deeaec5db238be8ca49d697a6fe2fa5c0a9cb4 [stream]
+[debug] [2023-08-05T18:00:48.726Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/36df865f41f67cba817ec6712f02f62a3a42180e811293edd2e15f0621bcaf7f [none]
+[debug] [2023-08-05T18:00:48.726Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/36df865f41f67cba817ec6712f02f62a3a42180e811293edd2e15f0621bcaf7f [stream]
+[debug] [2023-08-05T18:00:48.726Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/5a12a2cad0b9c2c89f757bbfef9ee365b49fd0befff757983c595f0fe0e22ff0 [none]
+[debug] [2023-08-05T18:00:48.727Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/5a12a2cad0b9c2c89f757bbfef9ee365b49fd0befff757983c595f0fe0e22ff0 [stream]
+[debug] [2023-08-05T18:00:48.727Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/36fdaab0fd4f45e4db120029f411ed64585c8102ae30d21fb439c0f5c9a8634e [none]
+[debug] [2023-08-05T18:00:48.727Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/36fdaab0fd4f45e4db120029f411ed64585c8102ae30d21fb439c0f5c9a8634e [stream]
+[debug] [2023-08-05T18:00:48.728Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/fb921f2e57fa6b72561209cf7476d8b07b19ae6dda5484285766e9846c2589ab [none]
+[debug] [2023-08-05T18:00:48.728Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/fb921f2e57fa6b72561209cf7476d8b07b19ae6dda5484285766e9846c2589ab [stream]
+[debug] [2023-08-05T18:00:48.729Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/0251bff2d1c7e0a4a27731d96c579caa46db6f5ffd96bef053c30c0df899e23e [none]
+[debug] [2023-08-05T18:00:48.729Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/0251bff2d1c7e0a4a27731d96c579caa46db6f5ffd96bef053c30c0df899e23e [stream]
+[debug] [2023-08-05T18:00:48.729Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/fdf524dac4b568f9c12725bec185d2f74184a88ff5a086ecd2fdc7e983325478 [none]
+[debug] [2023-08-05T18:00:48.729Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/fdf524dac4b568f9c12725bec185d2f74184a88ff5a086ecd2fdc7e983325478 [stream]
+[debug] [2023-08-05T18:00:48.730Z] [hosting][populate queue][FINAL] {"max":468,"min":468,"avg":468,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":486}
+[debug] [2023-08-05T18:00:48.730Z] [hosting] uploads queued: 22
+[debug] [2023-08-05T18:00:49.164Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/b667c142b97b3848468303c55f62b5a3b70175f1c400482a5219960794504c63 200
+[debug] [2023-08-05T18:00:49.164Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/b667c142b97b3848468303c55f62b5a3b70175f1c400482a5219960794504c63 [stream]
+[debug] [2023-08-05T18:00:49.200Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/3671114a09944b44933d8f7240d2ed183ae00d9ea4f56dd82c9574f6cee93f13 200
+[debug] [2023-08-05T18:00:49.200Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/3671114a09944b44933d8f7240d2ed183ae00d9ea4f56dd82c9574f6cee93f13 [stream]
+[debug] [2023-08-05T18:00:49.200Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/2d0b8071fe284015e0f8fd21b80f19312ea5b75e4ac8bcdf829f32affe04f160 200
+[debug] [2023-08-05T18:00:49.200Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/2d0b8071fe284015e0f8fd21b80f19312ea5b75e4ac8bcdf829f32affe04f160 [stream]
+[debug] [2023-08-05T18:00:49.238Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/36df865f41f67cba817ec6712f02f62a3a42180e811293edd2e15f0621bcaf7f 200
+[debug] [2023-08-05T18:00:49.238Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/36df865f41f67cba817ec6712f02f62a3a42180e811293edd2e15f0621bcaf7f [stream]
+[debug] [2023-08-05T18:00:49.265Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/87c5aa30ff68571bdb61a863c91f0407ee14af1492995c2d4b1e2e4cfb6391de 200
+[debug] [2023-08-05T18:00:49.265Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/87c5aa30ff68571bdb61a863c91f0407ee14af1492995c2d4b1e2e4cfb6391de [stream]
+[debug] [2023-08-05T18:00:49.271Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/f8543de91b3b6282bb5dc0095b8c61411c8971f4d4df2d60717cd1b7178b8a52 200
+[debug] [2023-08-05T18:00:49.271Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/f8543de91b3b6282bb5dc0095b8c61411c8971f4d4df2d60717cd1b7178b8a52 [stream]
+[debug] [2023-08-05T18:00:49.289Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/c6645781e4f74fd45928f432bdc67090204d5180b9e2cd4f976d2fbfad4d3622 200
+[debug] [2023-08-05T18:00:49.289Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/c6645781e4f74fd45928f432bdc67090204d5180b9e2cd4f976d2fbfad4d3622 [stream]
+[debug] [2023-08-05T18:00:49.289Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/6e78c7befc9cbb980e3d35ee36674ee4b0da42e07fba189e60815f288ec3d94c 200
+[debug] [2023-08-05T18:00:49.289Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/6e78c7befc9cbb980e3d35ee36674ee4b0da42e07fba189e60815f288ec3d94c [stream]
+[debug] [2023-08-05T18:00:49.294Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/3cf1f682cb4e9a8ff530d199483505cf93ea2720f830e7b1f5be85c496ded12d 200
+[debug] [2023-08-05T18:00:49.294Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/3cf1f682cb4e9a8ff530d199483505cf93ea2720f830e7b1f5be85c496ded12d [stream]
+[debug] [2023-08-05T18:00:49.295Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/fb921f2e57fa6b72561209cf7476d8b07b19ae6dda5484285766e9846c2589ab 200
+[debug] [2023-08-05T18:00:49.295Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/fb921f2e57fa6b72561209cf7476d8b07b19ae6dda5484285766e9846c2589ab [stream]
+[debug] [2023-08-05T18:00:49.299Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/27d3ffc4189434debe77793eb6ab62e73ec93e74347da67f9f1051e5aab0d536 200
+[debug] [2023-08-05T18:00:49.299Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/27d3ffc4189434debe77793eb6ab62e73ec93e74347da67f9f1051e5aab0d536 [stream]
+[debug] [2023-08-05T18:00:49.299Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/eceeccc29ac34255133a525407134044a15f3a664fab00ca1a86054a3a76c7c0 200
+[debug] [2023-08-05T18:00:49.299Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/eceeccc29ac34255133a525407134044a15f3a664fab00ca1a86054a3a76c7c0 [stream]
+[debug] [2023-08-05T18:00:49.300Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/45c6c079122d420c1fea6a630d195bf01ca6ad8c7c9603064525feb8b1c6b7b4 200
+[debug] [2023-08-05T18:00:49.300Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/45c6c079122d420c1fea6a630d195bf01ca6ad8c7c9603064525feb8b1c6b7b4 [stream]
+[debug] [2023-08-05T18:00:49.318Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/5a12a2cad0b9c2c89f757bbfef9ee365b49fd0befff757983c595f0fe0e22ff0 200
+[debug] [2023-08-05T18:00:49.318Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/5a12a2cad0b9c2c89f757bbfef9ee365b49fd0befff757983c595f0fe0e22ff0 [stream]
+[debug] [2023-08-05T18:00:49.435Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/1830aa2b99200fd0f90e836fb25cef26de7add3629f1bc11988f389012ece5b5 200
+[debug] [2023-08-05T18:00:49.436Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/1830aa2b99200fd0f90e836fb25cef26de7add3629f1bc11988f389012ece5b5 [stream]
+[debug] [2023-08-05T18:00:49.477Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/91a7dd2e66bda4f64c08e786dc8a6a350c24c51e402b5397483e453a6c54635f 200
+[debug] [2023-08-05T18:00:49.477Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/91a7dd2e66bda4f64c08e786dc8a6a350c24c51e402b5397483e453a6c54635f [stream]
+[debug] [2023-08-05T18:00:49.526Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/1bbea2d22bf49545d66bdfddf6deeaec5db238be8ca49d697a6fe2fa5c0a9cb4 200
+[debug] [2023-08-05T18:00:49.526Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/1bbea2d22bf49545d66bdfddf6deeaec5db238be8ca49d697a6fe2fa5c0a9cb4 [stream]
+[debug] [2023-08-05T18:00:49.594Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/0251bff2d1c7e0a4a27731d96c579caa46db6f5ffd96bef053c30c0df899e23e 200
+[debug] [2023-08-05T18:00:49.595Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/0251bff2d1c7e0a4a27731d96c579caa46db6f5ffd96bef053c30c0df899e23e [stream]
+[debug] [2023-08-05T18:00:49.599Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/fdf524dac4b568f9c12725bec185d2f74184a88ff5a086ecd2fdc7e983325478 200
+[debug] [2023-08-05T18:00:49.599Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/fdf524dac4b568f9c12725bec185d2f74184a88ff5a086ecd2fdc7e983325478 [stream]
+[debug] [2023-08-05T18:00:49.704Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/6143acbe5dc3f4f91e16e1961fd7c1c98ac5a5673c6535605b4c0dc444b4a4f5 200
+[debug] [2023-08-05T18:00:49.704Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/6143acbe5dc3f4f91e16e1961fd7c1c98ac5a5673c6535605b4c0dc444b4a4f5 [stream]
+[debug] [2023-08-05T18:00:49.722Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/36fdaab0fd4f45e4db120029f411ed64585c8102ae30d21fb439c0f5c9a8634e 200
+[debug] [2023-08-05T18:00:49.723Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/36fdaab0fd4f45e4db120029f411ed64585c8102ae30d21fb439c0f5c9a8634e [stream]
+[debug] [2023-08-05T18:00:49.785Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/93ef5d4f8f0c99aaad721e20b095bf53ff15c33a62c5c2e634d91f56c1054039 200
+[debug] [2023-08-05T18:00:49.785Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/game-forums-sh/versions/9ea595c112b2a51c/files/93ef5d4f8f0c99aaad721e20b095bf53ff15c33a62c5c2e634d91f56c1054039 [stream]
+[debug] [2023-08-05T18:00:49.786Z] [hosting][upload queue][FINAL] {"max":1073,"min":455,"avg":678.2727272727273,"active":0,"complete":22,"success":22,"errored":0,"retried":0,"total":22,"elapsed":1077}
+[info] ✔  hosting[game-forums-sh]: file upload complete 
+[debug] [2023-08-05T18:00:49.787Z] [hosting] deploy completed after 1613ms
+[info] i  functions: creating Node.js 18 (2nd Gen) function firebase-frameworks-game-forums-sh:ssrgameforumssh(us-central1)... 
+[debug] [2023-08-05T18:00:49.793Z] >>> [apiv2][query] POST https://cloudfunctions.googleapis.com/v2/projects/game-forums-sh/locations/us-central1/functions functionId=ssrgameforumssh
+[debug] [2023-08-05T18:00:49.793Z] >>> [apiv2][body] POST https://cloudfunctions.googleapis.com/v2/projects/game-forums-sh/locations/us-central1/functions {"name":"projects/game-forums-sh/locations/us-central1/functions/ssrgameforumssh","buildConfig":{"runtime":"nodejs18","entryPoint":"ssrgameforumssh","source":{"storageSource":{"bucket":"gcf-v2-uploads-960495738264-us-central1","object":"913331df-50d1-44a1-b518-73db577ffe56.zip"}},"environmentVariables":{"GOOGLE_NODE_RUN_SCRIPTS":""}},"serviceConfig":{"environmentVariables":{"__FIREBASE_FRAMEWORKS_ENTRY__":"next.js","FIREBASE_CONFIG":"{\"projectId\":\"game-forums-sh\",\"storageBucket\":\"game-forums-sh.appspot.com\"}","GCLOUD_PROJECT":"game-forums-sh","EVENTARC_CLOUD_EVENT_SOURCE":"projects/game-forums-sh/locations/us-central1/services/ssrgameforumssh"},"ingressSettings":null,"timeoutSeconds":null,"serviceAccountEmail":null,"availableMemory":"256Mi","minInstanceCount":null,"maxInstanceCount":null,"maxInstanceRequestConcurrency":80,"availableCpu":"1","vpcConnector":null,"vpcConnectorEgressSettings":null},"labels":{"deployment-tool":"cli-firebase","firebase-functions-codebase":"firebase-frameworks-game-forums-sh","firebase-functions-hash":"e380ac9c756e071f3a565b19101544fcab084a95"}}
+[debug] [2023-08-05T18:00:50.555Z] <<< [apiv2][status] POST https://cloudfunctions.googleapis.com/v2/projects/game-forums-sh/locations/us-central1/functions 400
+[debug] [2023-08-05T18:00:50.555Z] <<< [apiv2][body] POST https://cloudfunctions.googleapis.com/v2/projects/game-forums-sh/locations/us-central1/functions {"error":{"code":400,"message":"Could not create Cloud Run service ssrgameforumssh. spec.template.spec.containers.resources.limits.cpu: Invalid value specified for cpu. For the specified value, maxScale may not exceed 10.\nConsider running your workload in a region with greater capacity, decreasing your requested cpu-per-instance, or requesting an increase in quota for this region if you are seeing sustained usage near this limit, see https://cloud.google.com/run/quotas. Your project may gain access to further scaling by adding billing information to your account.","status":"INVALID_ARGUMENT"}}
+[warn] ⚠  functions: Your current project quotas don't allow for the current max instances setting of 100. Either reduce this function's maximum instances, or request a quota increase on the underlying Cloud Run service at https://cloud.google.com/run/quotas. 
+[warn] ⚠  functions: You can adjust the max instances value in your function's runtime options:
+	setGlobalOptions({maxInstances: 10}) 
+[error] Failed to create function projects/game-forums-sh/locations/us-central1/functions/ssrgameforumssh
+[debug] [2023-08-05T18:00:50.567Z] Total Function Deployment time: 769
+[debug] [2023-08-05T18:00:50.568Z] 1 Functions Deployed
+[debug] [2023-08-05T18:00:50.568Z] 1 Functions Errored
+[debug] [2023-08-05T18:00:50.568Z] 0 Function Deployments Aborted
+[debug] [2023-08-05T18:00:50.568Z] Average Function Deployment time: 768
+[info] 
+[info] Functions deploy had errors with the following functions:
+	firebase-frameworks-game-forums-sh:ssrgameforumssh(us-central1)
+[debug] [2023-08-05T18:00:50.659Z] Not printing URL for HTTPS function. Typically this means it didn't match a filter or we failed deployment
+[info] i  functions: cleaning up build files... 
+[debug] [2023-08-05T18:00:50.661Z] >>> [apiv2][query] DELETE https://artifactregistry.googleapis.com/v1beta2/projects/game-forums-sh/locations/us-central1/repositories/gcf-artifacts/packages/ssrgameforumssh [none]
+[debug] [2023-08-05T18:00:50.662Z] >>> [apiv2][query] GET https://us.gcr.io/v2/game-forums-sh/gcf/us-central1/tags/list [none]
+[debug] [2023-08-05T18:00:50.853Z] <<< [apiv2][status] GET https://us.gcr.io/v2/game-forums-sh/gcf/us-central1/tags/list 200
+[debug] [2023-08-05T18:00:50.854Z] <<< [apiv2][body] GET https://us.gcr.io/v2/game-forums-sh/gcf/us-central1/tags/list {"child":[],"manifest":{},"name":"game-forums-sh/gcf/us-central1","tags":[]}
+[debug] [2023-08-05T18:00:50.854Z] Could not find image for function projects/game-forums-sh/locations/us-central1/functions/ssrgameforumssh
+[debug] [2023-08-05T18:00:50.992Z] <<< [apiv2][status] DELETE https://artifactregistry.googleapis.com/v1beta2/projects/game-forums-sh/locations/us-central1/repositories/gcf-artifacts/packages/ssrgameforumssh 404
+[debug] [2023-08-05T18:00:50.992Z] <<< [apiv2][body] DELETE https://artifactregistry.googleapis.com/v1beta2/projects/game-forums-sh/locations/us-central1/repositories/gcf-artifacts/packages/ssrgameforumssh {"error":{"code":404,"message":"Package \"projects/game-forums-sh/locations/us-central1/repositories/gcf-artifacts/packages/ssrgameforumssh\" was not found.","status":"NOT_FOUND"}}
+[debug] [2023-08-05T18:00:50.993Z] Functions deploy failed.
+[debug] [2023-08-05T18:00:50.993Z] {
+  "endpoint": {
+    "id": "ssrgameforumssh",
+    "project": "game-forums-sh",
+    "region": "us-central1",
+    "entryPoint": "ssrgameforumssh",
+    "platform": "gcfv2",
+    "runtime": "nodejs18",
+    "httpsTrigger": {},
+    "labels": {
+      "deployment-tool": "cli-firebase"
+    },
+    "serviceAccount": null,
+    "ingressSettings": null,
+    "availableMemoryMb": null,
+    "timeoutSeconds": null,
+    "maxInstances": null,
+    "minInstances": null,
+    "concurrency": 80,
+    "vpc": null,
+    "environmentVariables": {
+      "__FIREBASE_FRAMEWORKS_ENTRY__": "next.js",
+      "FIREBASE_CONFIG": "{\"projectId\":\"game-forums-sh\",\"storageBucket\":\"game-forums-sh.appspot.com\"}",
+      "GCLOUD_PROJECT": "game-forums-sh",
+      "EVENTARC_CLOUD_EVENT_SOURCE": "projects/game-forums-sh/locations/us-central1/services/ssrgameforumssh"
+    },
+    "codebase": "firebase-frameworks-game-forums-sh",
+    "cpu": 1,
+    "targetedByOnly": false,
+    "hash": "e380ac9c756e071f3a565b19101544fcab084a95"
+  },
+  "op": "create",
+  "original": {
+    "name": "FirebaseError",
+    "children": [],
+    "context": {
+      "function": "projects/game-forums-sh/locations/us-central1/functions/ssrgameforumssh"
+    },
+    "exit": 1,
+    "message": "Failed to create function projects/game-forums-sh/locations/us-central1/functions/ssrgameforumssh",
+    "original": {
+      "name": "FirebaseError",
+      "children": [],
+      "context": {
+        "body": {
+          "error": {
+            "code": 400,
+            "message": "Could not create Cloud Run service ssrgameforumssh. spec.template.spec.containers.resources.limits.cpu: Invalid value specified for cpu. For the specified value, maxScale may not exceed 10.\nConsider running your workload in a region with greater capacity, decreasing your requested cpu-per-instance, or requesting an increase in quota for this region if you are seeing sustained usage near this limit, see https://cloud.google.com/run/quotas. Your project may gain access to further scaling by adding billing information to your account.",
+            "status": "INVALID_ARGUMENT"
+          }
+        },
+        "response": {
+          "statusCode": 400
+        }
+      },
+      "exit": 1,
+      "message": "HTTP Error: 400, Could not create Cloud Run service ssrgameforumssh. spec.template.spec.containers.resources.limits.cpu: Invalid value specified for cpu. For the specified value, maxScale may not exceed 10.\nConsider running your workload in a region with greater capacity, decreasing your requested cpu-per-instance, or requesting an increase in quota for this region if you are seeing sustained usage near this limit, see https://cloud.google.com/run/quotas. Your project may gain access to further scaling by adding billing information to your account.",
+      "status": 400
+    },
+    "status": 400,
+    "code": 400
+  }
+}
+[debug] [2023-08-05T18:00:51.052Z] Error: Failed to create function ssrgameforumssh in region us-central1
+    at /usr/local/lib/node_modules/firebase-tools/lib/deploy/functions/release/fabricator.js:288:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Fabricator.createV2Function (/usr/local/lib/node_modules/firebase-tools/lib/deploy/functions/release/fabricator.js:276:30)
+    at async Fabricator.createEndpoint (/usr/local/lib/node_modules/firebase-tools/lib/deploy/functions/release/fabricator.js:135:13)
+    at async handle (/usr/local/lib/node_modules/firebase-tools/lib/deploy/functions/release/fabricator.js:88:17)
+[error] 
+[error] Error: There was an error deploying functions
