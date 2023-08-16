@@ -1,6 +1,6 @@
 # GameFlickFinder
 
-Welcome to GameFlickFinder, a website dedicated to helping users discover and explore a curated list of games. Users can browse through the collection of games, view trailers, and access download links. 
+GameFlickFinder, a website dedicated to helping users discover and explore a curated list of games. Users can browse through the collection of games, view trailers, and access download links. 
 
 ## Technologies Used
 

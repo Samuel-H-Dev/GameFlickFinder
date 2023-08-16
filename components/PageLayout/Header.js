@@ -9,7 +9,7 @@ export default function Header() {
     
    
     
-    <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+    <a href="/" class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
     <img src="/images/logo.png" className="max-w-10 rounded max-h-10 w-fit" />      <span class="ml-3 text-xl">Gamin' Nation</span>
     </a>
   </div>
